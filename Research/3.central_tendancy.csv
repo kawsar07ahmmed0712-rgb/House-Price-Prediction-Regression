@@ -1,0 +1,29 @@
+,column_name,mean,median,mode,mode_percentage,zero_percentage,q1,q3,iqr,mean_median_gap,mean_median_gap_percentage,gap_to_iqr_percentage,center_stability,imputation_candidate
+0,LotFrontage,70.05,69.0,60.0,11.91,0.0,59.0,80.0,21.0,1.05,1.52,5.0,stable,mean or median
+1,LotArea,10516.83,9478.5,7200.0,1.71,0.0,7553.5,11601.5,4048.0,1038.33,10.95,25.65,slightly shifted,median preferred
+2,MasVnrArea,103.69,0.0,0.0,59.3,59.3,0.0,166.0,166.0,103.69,,62.46,shifted,median / transformation check
+3,BsmtFinSF1,443.64,383.5,0.0,31.99,31.99,0.0,712.25,712.25,60.14,15.68,8.44,slightly shifted,median preferred
+4,BsmtFinSF2,46.55,0.0,0.0,88.56,88.56,0.0,0.0,0.0,46.55,,,zero-dominated,zero/indicator check
+5,BsmtUnfSF,567.24,477.5,0.0,8.08,8.08,223.0,808.0,585.0,89.74,18.79,15.34,slightly shifted,median preferred
+6,TotalBsmtSF,1057.43,991.5,0.0,2.53,2.53,795.75,1298.25,502.5,65.93,6.65,13.12,slightly shifted,median preferred
+7,1stFlrSF,1162.63,1087.0,864.0,1.71,0.0,882.0,1391.25,509.25,75.63,6.96,14.85,slightly shifted,median preferred
+8,2ndFlrSF,346.99,0.0,0.0,56.78,56.78,0.0,728.0,728.0,346.99,,47.66,shifted,median / transformation check
+9,LowQualFinSF,5.84,0.0,0.0,98.22,98.22,0.0,0.0,0.0,5.84,,,zero-dominated,zero/indicator check
+10,GrLivArea,1515.46,1464.0,864.0,1.51,0.0,1129.5,1776.75,647.25,51.46,3.52,7.95,stable,mean or median
+11,BsmtFullBath,0.43,0.0,0.0,58.63,58.63,0.0,1.0,1.0,0.43,,42.53,shifted,median / transformation check
+12,BsmtHalfBath,0.06,0.0,0.0,94.38,94.38,0.0,0.0,0.0,0.06,,,zero-dominated,zero/indicator check
+13,FullBath,1.57,2.0,2.0,52.6,0.62,1.0,2.0,1.0,-0.43,-21.75,43.49,shifted,median / transformation check
+14,HalfBath,0.38,0.0,0.0,62.53,62.53,0.0,1.0,1.0,0.38,,38.29,shifted,median / transformation check
+15,BedroomAbvGr,2.87,3.0,3.0,55.07,0.41,2.0,3.0,1.0,-0.13,-4.45,13.36,stable,mean or median
+16,KitchenAbvGr,1.05,1.0,1.0,95.34,0.07,1.0,1.0,0.0,0.05,4.66,,mode-dominated,median / transformation check
+17,TotRmsAbvGrd,6.52,6.0,6.0,27.53,0.0,5.0,7.0,2.0,0.52,8.63,25.89,slightly shifted,median preferred
+18,Fireplaces,0.61,1.0,0.0,47.26,47.26,0.0,1.0,1.0,-0.39,-38.7,38.7,shifted,median / transformation check
+19,GarageCars,1.77,2.0,2.0,56.44,5.55,1.0,2.0,1.0,-0.23,-11.64,23.29,slightly shifted,median preferred
+20,GarageArea,472.98,480.0,0.0,5.55,5.55,334.5,576.0,241.5,-7.02,-1.46,2.91,stable,mean or median
+21,WoodDeckSF,94.24,0.0,0.0,52.12,52.12,0.0,168.0,168.0,94.24,,56.1,shifted,median / transformation check
+22,OpenPorchSF,46.66,25.0,0.0,44.93,44.93,0.0,68.0,68.0,21.66,86.64,31.85,shifted,median / transformation check
+23,EnclosedPorch,21.95,0.0,0.0,85.75,85.75,0.0,0.0,0.0,21.95,,,zero-dominated,zero/indicator check
+24,3SsnPorch,3.41,0.0,0.0,98.36,98.36,0.0,0.0,0.0,3.41,,,zero-dominated,zero/indicator check
+25,ScreenPorch,15.06,0.0,0.0,92.05,92.05,0.0,0.0,0.0,15.06,,,zero-dominated,zero/indicator check
+26,PoolArea,2.76,0.0,0.0,99.52,99.52,0.0,0.0,0.0,2.76,,,zero-dominated,zero/indicator check
+27,MiscVal,43.49,0.0,0.0,96.44,96.44,0.0,0.0,0.0,43.49,,,zero-dominated,zero/indicator check
