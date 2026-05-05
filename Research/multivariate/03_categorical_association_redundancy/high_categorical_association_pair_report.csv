@@ -1,0 +1,8 @@
+feature_1,feature_2,feature_pair,cramers_v,association_level,action_hint
+MSSubClass,BldgType,MSSubClass ↔ BldgType,0.8914,high,strong feature-group overlap review
+MSSubClass,HouseStyle,MSSubClass ↔ HouseStyle,0.848,high,strong feature-group overlap review
+Exterior1st,Exterior2nd,Exterior1st ↔ Exterior2nd,0.7589,high,strong feature-group overlap review
+GarageQual,GarageCond,GarageQual ↔ GarageCond,0.7042,moderate,monitor association / possible group relation
+GarageFinish,GarageType,GarageFinish ↔ GarageType,0.6849,moderate,monitor association / possible group relation
+MSZoning,Neighborhood,MSZoning ↔ Neighborhood,0.6406,moderate,monitor association / possible group relation
+OverallQual,ExterQual,OverallQual ↔ ExterQual,0.6143,moderate,monitor association / possible group relation

@@ -1,0 +1,7 @@
+feature_group,features,expected_association,reason,possible_action
+exterior_material,"Exterior1st, Exterior2nd",high,primary and secondary exterior materials are structurally related,"keep both, rare-group both, optionally create exterior match indicator"
+garage,"GarageType, GarageFinish, GarageQual, GarageCond",moderate/high,garage existence and garage quality/finish describe same component,"fill None consistently, create HasGarage, GarageQualityScore"
+basement,"BsmtQual, BsmtCond, BsmtExposure, BsmtFinType1, BsmtFinType2",moderate/high,basement existence and basement quality/finish describe same component,"fill None consistently, create HasBasement, BasementQualityScore"
+sale_transaction,"SaleType, SaleCondition",moderate,sale type and sale condition are transaction-related,keep but review prediction-time availability
+zoning_building_class,"MSZoning, MSSubClass, BldgType, HouseStyle",moderate,zoning and building style/class may be related,"keep, one-hot encode, review redundancy after model validation"
+utilities_access,"Street, Alley, Utilities, PavedDrive",low/moderate,access and utility features can describe similar infrastructure,"keep for now, review dominated features later"

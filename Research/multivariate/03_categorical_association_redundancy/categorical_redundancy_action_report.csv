@@ -1,0 +1,47 @@
+feature_name,max_cramers_v_with_other_feature,most_associated_feature,high_association_pair_count,categorical_redundancy_risk,manual_action
+GarageQual,0.7042,GarageCond,1,moderate,keep garage group / create HasGarage and GarageQualityScore
+GarageCond,0.7042,GarageQual,1,moderate,keep garage group / create HasGarage and GarageQualityScore
+GarageFinish,0.6849,GarageType,1,moderate,keep garage group / create HasGarage and GarageQualityScore
+GarageType,0.6849,GarageFinish,1,moderate,keep garage group / create HasGarage and GarageQualityScore
+MSZoning,0.6406,Neighborhood,1,moderate,moderate association with Neighborhood / monitor
+Neighborhood,0.6406,MSZoning,1,moderate,moderate association with MSZoning / monitor
+OverallQual,0.6143,ExterQual,1,moderate,moderate association with ExterQual / monitor
+ExterQual,0.6143,OverallQual,1,moderate,moderate association with OverallQual / monitor
+BsmtQual,0.5766,BsmtFinType1,0,low,keep basement group / create HasBasement and BasementQualityScore
+BsmtFinType1,0.5766,BsmtQual,0,low,keep basement group / create HasBasement and BasementQualityScore
+KitchenQual,0.546,ExterQual,0,low,low redundancy risk / keep
+Foundation,0.5314,BsmtQual,0,low,low redundancy risk / keep
+BsmtCond,0.5268,BsmtQual,0,low,keep basement group / create HasBasement and BasementQualityScore
+BsmtExposure,0.5216,BsmtFinType1,0,low,keep basement group / create HasBasement and BasementQualityScore
+BsmtFinType2,0.5,BsmtQual,0,low,keep basement group / create HasBasement and BasementQualityScore
+SaleType,0.4708,SaleCondition,0,low,keep but prediction-time availability review
+SaleCondition,0.4708,SaleType,0,low,keep but prediction-time availability review
+Heating,0.4608,CentralAir,0,low,low redundancy risk / keep
+CentralAir,0.4608,Heating,0,low,low redundancy risk / keep
+RoofStyle,0.458,RoofMatl,0,low,low redundancy risk / keep
+RoofMatl,0.458,RoofStyle,0,low,low redundancy risk / keep
+LandSlope,0.4572,LandContour,0,low,low redundancy risk / keep
+LandContour,0.4572,LandSlope,0,low,low redundancy risk / keep
+Alley,0.4285,Neighborhood,0,low,low redundancy risk / keep
+Electrical,0.4204,CentralAir,0,low,low redundancy risk / keep
+OverallCond,0.4151,BsmtCond,0,low,low redundancy risk / keep
+PoolQC,0.4052,MiscFeature,0,low,low redundancy risk / keep
+MiscFeature,0.4052,PoolQC,0,low,low redundancy risk / keep
+MasVnrType,0.3802,Neighborhood,0,low,low redundancy risk / keep
+ExterCond,0.3793,OverallCond,0,low,low redundancy risk / keep
+HeatingQC,0.3787,CentralAir,0,low,low redundancy risk / keep
+Condition2,0.3479,MiscFeature,0,low,dominated feature / keep for now but review later
+PavedDrive,0.3356,CentralAir,0,low,low redundancy risk / keep
+Street,0.3211,ExterQual,0,low,dominated feature / keep for now but review later
+FireplaceQu,0.3041,Neighborhood,0,low,low redundancy risk / keep
+LotShape,0.244,Neighborhood,0,low,low redundancy risk / keep
+LotConfig,0.221,LotShape,0,low,low redundancy risk / keep
+Utilities,0.2189,GarageType,0,low,dominated feature / keep for now but review later
+Condition1,0.2101,Condition2,0,low,low redundancy risk / keep
+Functional,0.2024,BsmtCond,0,low,low redundancy risk / keep
+Fence,0.1752,Neighborhood,0,low,low redundancy risk / keep
+MSSubClass,0.8914,BldgType,2,high,high association with BldgType / keep but review
+BldgType,0.8914,MSSubClass,1,high,high association with MSSubClass / keep but review
+HouseStyle,0.848,MSSubClass,1,high,high association with MSSubClass / keep but review
+Exterior1st,0.7589,Exterior2nd,1,high,keep both / rare-group / create ExteriorMatched candidate
+Exterior2nd,0.7589,Exterior1st,1,high,keep both / rare-group / create ExteriorMatched candidate
