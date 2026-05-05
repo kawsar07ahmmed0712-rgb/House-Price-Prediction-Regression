@@ -1,0 +1,8 @@
+output_name,file_path,rows,columns,purpose,scaling_required,model_training_notebook_use
+tree_train_final,C:\Users\USER\Kawsar_Ahmmed\ALL_Projects_Lab\Machine_Learning\House-Price-Prediction-Regression\fe_result\08_X_train_tree_final.csv,1458,343,training features for tree-based models,False,True
+tree_test_final,C:\Users\USER\Kawsar_Ahmmed\ALL_Projects_Lab\Machine_Learning\House-Price-Prediction-Regression\fe_result\08_X_test_tree_final.csv,1459,343,test features for tree-based models,False,True
+linear_train_final,C:\Users\USER\Kawsar_Ahmmed\ALL_Projects_Lab\Machine_Learning\House-Price-Prediction-Regression\fe_result\09_X_train_linear_final.csv,1458,343,training features for linear models,True,True
+linear_test_final,C:\Users\USER\Kawsar_Ahmmed\ALL_Projects_Lab\Machine_Learning\House-Price-Prediction-Regression\fe_result\09_X_test_linear_final.csv,1459,343,test features for linear models,True,True
+y_train_log_final,C:\Users\USER\Kawsar_Ahmmed\ALL_Projects_Lab\Machine_Learning\House-Price-Prediction-Regression\fe_result\10_y_train_log_final.csv,1458,2,log target for model training,False,True
+y_train_raw_final,C:\Users\USER\Kawsar_Ahmmed\ALL_Projects_Lab\Machine_Learning\House-Price-Prediction-Regression\fe_result\10_y_train_raw_final.csv,1458,2,raw target for interpretation and inverse checks,False,True
+test_ids_final,C:\Users\USER\Kawsar_Ahmmed\ALL_Projects_Lab\Machine_Learning\House-Price-Prediction-Regression\fe_result\10_test_ids_final.csv,1459,1,test IDs for submission file,False,True

@@ -1,0 +1,16 @@
+{
+    "project_root": "C:\\Users\\USER\\Kawsar_Ahmmed\\ALL_Projects_Lab\\Machine_Learning\\House-Price-Prediction-Regression",
+    "fe_report_dir": "C:\\Users\\USER\\Kawsar_Ahmmed\\ALL_Projects_Lab\\Machine_Learning\\House-Price-Prediction-Regression\\fe_report",
+    "fe_result_dir": "C:\\Users\\USER\\Kawsar_Ahmmed\\ALL_Projects_Lab\\Machine_Learning\\House-Price-Prediction-Regression\\fe_result",
+    "tree_train_shape": "(1458, 343)",
+    "tree_test_shape": "(1459, 343)",
+    "linear_train_shape": "(1458, 343)",
+    "linear_test_shape": "(1459, 343)",
+    "target_rows": 1458,
+    "test_id_rows": 1459,
+    "tree_feature_count": 343,
+    "linear_feature_count": 343,
+    "validation_fail_count": 0,
+    "model_training_done_here": false,
+    "next_notebook": "Model_Training_Research.ipynb"
+}
