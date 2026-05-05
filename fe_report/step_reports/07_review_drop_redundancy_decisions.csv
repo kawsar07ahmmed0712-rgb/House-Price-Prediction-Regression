@@ -1,0 +1,25 @@
+feature,review_type,decision
+SaleType,leakage_or_availability_review,"keep for Kaggle-style task, review for real deployment"
+SaleCondition,leakage_or_availability_review,"keep for Kaggle-style task, review for real deployment"
+Utilities,low_priority_drop_review,do not drop before CV/model importance
+Street,low_priority_drop_review,do not drop before CV/model importance
+Condition2,low_priority_drop_review,do not drop before CV/model importance
+RoofMatl,low_priority_drop_review,do not drop before CV/model importance
+LowQualFinSF,low_priority_drop_review,do not drop before CV/model importance
+KitchenAbvGr,low_priority_drop_review,do not drop before CV/model importance
+EnclosedPorch,low_priority_drop_review,do not drop before CV/model importance
+3SsnPorch,low_priority_drop_review,do not drop before CV/model importance
+ScreenPorch,low_priority_drop_review,do not drop before CV/model importance
+MiscFeature,low_priority_drop_review,do not drop before CV/model importance
+MiscVal,low_priority_drop_review,do not drop before CV/model importance
+Alley,low_priority_drop_review,do not drop before CV/model importance
+Fence,low_priority_drop_review,do not drop before CV/model importance
+PoolQC,low_priority_drop_review,do not drop before CV/model importance
+PoolArea,low_priority_drop_review,do not drop before CV/model importance
+"GarageCars, GarageArea",redundancy_group: garage_size,"keep initially, validate with CV/model importance"
+"GrLivArea, TotRmsAbvGrd",redundancy_group: living_area_rooms,"keep initially, validate with CV/model importance"
+"TotalBsmtSF, 1stFlrSF",redundancy_group: basement_first_floor,"keep initially, validate with CV/model importance"
+"Exterior1st, Exterior2nd",redundancy_group: exterior_material,"keep initially, validate with CV/model importance"
+"MSSubClass, BldgType, HouseStyle",redundancy_group: building_structure,"keep initially, validate with CV/model importance"
+"GarageType, GarageFinish, GarageQual, GarageCond",redundancy_group: garage_component,"keep initially, validate with CV/model importance"
+"BsmtQual, BsmtCond, BsmtExposure, BsmtFinType1, BsmtFinType2",redundancy_group: basement_component,"keep initially, validate with CV/model importance"

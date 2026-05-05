@@ -1,0 +1,81 @@
+feature,train_dtype_before,test_dtype_before,train_dtype_after,test_dtype_after,dtype_changed_train,dtype_changed_test,manual_decision
+Id,int64,int64,int64,int64,False,False,"tracking ID only, drop before modeling"
+MSSubClass,int64,int64,object,object,True,True,converted to nominal categorical string
+MSZoning,object,object,object,object,False,False,no change
+LotFrontage,float64,float64,float64,float64,False,False,no change
+LotArea,int64,int64,int64,int64,False,False,no change
+Street,object,object,object,object,False,False,no change
+Alley,object,object,object,object,False,False,no change
+LotShape,object,object,object,object,False,False,no change
+LandContour,object,object,object,object,False,False,no change
+Utilities,object,object,object,object,False,False,no change
+LotConfig,object,object,object,object,False,False,no change
+LandSlope,object,object,object,object,False,False,no change
+Neighborhood,object,object,object,object,False,False,no change
+Condition1,object,object,object,object,False,False,no change
+Condition2,object,object,object,object,False,False,no change
+BldgType,object,object,object,object,False,False,no change
+HouseStyle,object,object,object,object,False,False,no change
+OverallQual,int64,int64,int64,int64,False,False,kept as ordered numeric score
+OverallCond,int64,int64,int64,int64,False,False,kept as ordered numeric score
+YearBuilt,int64,int64,int64,int64,False,False,kept numeric for time/age feature engineering
+YearRemodAdd,int64,int64,int64,int64,False,False,kept numeric for time/age feature engineering
+RoofStyle,object,object,object,object,False,False,no change
+RoofMatl,object,object,object,object,False,False,no change
+Exterior1st,object,object,object,object,False,False,no change
+Exterior2nd,object,object,object,object,False,False,no change
+MasVnrType,object,object,object,object,False,False,no change
+MasVnrArea,float64,float64,float64,float64,False,False,no change
+ExterQual,object,object,object,object,False,False,no change
+ExterCond,object,object,object,object,False,False,no change
+Foundation,object,object,object,object,False,False,no change
+BsmtQual,object,object,object,object,False,False,no change
+BsmtCond,object,object,object,object,False,False,no change
+BsmtExposure,object,object,object,object,False,False,no change
+BsmtFinType1,object,object,object,object,False,False,no change
+BsmtFinSF1,int64,float64,int64,float64,False,False,no change
+BsmtFinType2,object,object,object,object,False,False,no change
+BsmtFinSF2,int64,float64,int64,float64,False,False,no change
+BsmtUnfSF,int64,float64,int64,float64,False,False,no change
+TotalBsmtSF,int64,float64,int64,float64,False,False,no change
+Heating,object,object,object,object,False,False,no change
+HeatingQC,object,object,object,object,False,False,no change
+CentralAir,object,object,object,object,False,False,no change
+Electrical,object,object,object,object,False,False,no change
+1stFlrSF,int64,int64,int64,int64,False,False,no change
+2ndFlrSF,int64,int64,int64,int64,False,False,no change
+LowQualFinSF,int64,int64,int64,int64,False,False,no change
+GrLivArea,int64,int64,int64,int64,False,False,no change
+BsmtFullBath,int64,float64,int64,float64,False,False,no change
+BsmtHalfBath,int64,float64,int64,float64,False,False,no change
+FullBath,int64,int64,int64,int64,False,False,no change
+HalfBath,int64,int64,int64,int64,False,False,no change
+BedroomAbvGr,int64,int64,int64,int64,False,False,no change
+KitchenAbvGr,int64,int64,int64,int64,False,False,no change
+KitchenQual,object,object,object,object,False,False,no change
+TotRmsAbvGrd,int64,int64,int64,int64,False,False,no change
+Functional,object,object,object,object,False,False,no change
+Fireplaces,int64,int64,int64,int64,False,False,no change
+FireplaceQu,object,object,object,object,False,False,no change
+GarageType,object,object,object,object,False,False,no change
+GarageYrBlt,float64,float64,float64,float64,False,False,kept numeric for time/age feature engineering
+GarageFinish,object,object,object,object,False,False,no change
+GarageCars,int64,float64,int64,float64,False,False,no change
+GarageArea,int64,float64,int64,float64,False,False,no change
+GarageQual,object,object,object,object,False,False,no change
+GarageCond,object,object,object,object,False,False,no change
+PavedDrive,object,object,object,object,False,False,no change
+WoodDeckSF,int64,int64,int64,int64,False,False,no change
+OpenPorchSF,int64,int64,int64,int64,False,False,no change
+EnclosedPorch,int64,int64,int64,int64,False,False,no change
+3SsnPorch,int64,int64,int64,int64,False,False,no change
+ScreenPorch,int64,int64,int64,int64,False,False,no change
+PoolArea,int64,int64,int64,int64,False,False,no change
+PoolQC,object,object,object,object,False,False,no change
+Fence,object,object,object,object,False,False,no change
+MiscFeature,object,object,object,object,False,False,no change
+MiscVal,int64,int64,int64,int64,False,False,no change
+MoSold,int64,int64,int64,int64,False,False,kept numeric for time/age feature engineering
+YrSold,int64,int64,int64,int64,False,False,kept numeric for time/age feature engineering
+SaleType,object,object,object,object,False,False,no change
+SaleCondition,object,object,object,object,False,False,no change

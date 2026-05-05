@@ -1,0 +1,4 @@
+step,train_rows,test_rows,target_rows
+before_outlier_removal,1460,1459,1460
+after_outlier_removal,1458,1459,1458
+removed_rows,2,0,2

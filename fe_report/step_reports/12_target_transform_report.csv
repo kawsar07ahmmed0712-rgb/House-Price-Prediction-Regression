@@ -1,0 +1,3 @@
+target_version,target_name,row_count,mean,median,std,min,max
+raw_target_after_outlier_removal,SalePrice,1458,180932.91906721535,163000.0,79495.05528474765,34900.0,755000.0
+log1p_target_after_outlier_removal,log1p(SalePrice),1458,12.024015155682552,12.001511614739405,0.39971282760634014,10.460270761075149,13.534474352733596

@@ -1,0 +1,3 @@
+dataset_version,target,numeric_strategy,categorical_strategy,scaling,main_models,notes
+tree_based,log1p(SalePrice),raw numeric + selected engineered features,ordinal mappings + rare grouping + one-hot,not required,"RandomForest, ExtraTrees, GradientBoosting, XGBoost, LightGBM, CatBoost",tree models can handle nonlinearities and correlated features better
+linear_based,log1p(SalePrice),skew/log transformed numeric + selected engineered features,ordinal mappings + rare grouping + one-hot,required,"Ridge, Lasso, ElasticNet",linear models need scaling and more careful redundancy control

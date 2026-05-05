@@ -1,0 +1,7 @@
+decision_group,existing_column_count,existing_columns
+none_fill_existing,15,"Alley, MasVnrType, BsmtQual, BsmtCond, BsmtExposure, BsmtFinType1, BsmtFinType2, FireplaceQu, GarageType, GarageFinish, GarageQual, GarageCond, PoolQC, Fence, MiscFeature"
+zero_fill_existing,11,"MasVnrArea, BsmtFinSF1, BsmtFinSF2, BsmtUnfSF, TotalBsmtSF, BsmtFullBath, BsmtHalfBath, GarageCars, GarageArea, PoolArea, MiscVal"
+mode_fill_existing,8,"MSZoning, Utilities, Exterior1st, Exterior2nd, Electrical, KitchenQual, Functional, SaleType"
+nominal_existing,24,"MSSubClass, MSZoning, Street, Alley, LandContour, LotConfig, Neighborhood, Condition1, Condition2, BldgType, HouseStyle, RoofStyle, RoofMatl, Exterior1st, Exterior2nd, MasVnrType, Foundation, Heating, CentralAir, Electrical, GarageType, MiscFeature, SaleType, SaleCondition"
+rare_group_existing,12,"Neighborhood, MSSubClass, Exterior1st, Exterior2nd, HouseStyle, RoofStyle, RoofMatl, Condition1, Condition2, SaleType, SaleCondition, MiscFeature"
+ordinal_existing,19,"ExterQual, ExterCond, BsmtQual, BsmtCond, BsmtExposure, BsmtFinType1, BsmtFinType2, HeatingQC, KitchenQual, Functional, FireplaceQu, GarageFinish, GarageQual, GarageCond, PavedDrive, PoolQC, Fence, LotShape, LandSlope"

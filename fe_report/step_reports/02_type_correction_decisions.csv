@@ -1,0 +1,7 @@
+feature,target_type,manual_decision
+Id,tracking_only,"keep for tracking/submission, drop before modeling"
+MSSubClass,nominal_categorical,convert/use according to EDA decision
+OverallQual,ordinal_numeric,convert/use according to EDA decision
+OverallCond,ordinal_numeric,convert/use according to EDA decision
+MoSold,time_discrete,convert/use according to EDA decision
+YrSold,time_discrete,convert/use according to EDA decision

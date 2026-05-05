@@ -1,0 +1,3 @@
+outlier_id,reason,action
+524,Very high GrLivArea with unusually low SalePrice,remove from training only
+1299,Very high GrLivArea with unusually low SalePrice,remove from training only

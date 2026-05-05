@@ -1,0 +1,37 @@
+feature,fill_strategy,reason
+Alley,fill with None,missing means component/feature absent
+MasVnrType,fill with None,missing means component/feature absent
+BsmtQual,fill with None,missing means component/feature absent
+BsmtCond,fill with None,missing means component/feature absent
+BsmtExposure,fill with None,missing means component/feature absent
+BsmtFinType1,fill with None,missing means component/feature absent
+BsmtFinType2,fill with None,missing means component/feature absent
+FireplaceQu,fill with None,missing means component/feature absent
+GarageType,fill with None,missing means component/feature absent
+GarageFinish,fill with None,missing means component/feature absent
+GarageQual,fill with None,missing means component/feature absent
+GarageCond,fill with None,missing means component/feature absent
+PoolQC,fill with None,missing means component/feature absent
+Fence,fill with None,missing means component/feature absent
+MiscFeature,fill with None,missing means component/feature absent
+MasVnrArea,fill with 0,missing means numeric absence
+BsmtFinSF1,fill with 0,missing means numeric absence
+BsmtFinSF2,fill with 0,missing means numeric absence
+BsmtUnfSF,fill with 0,missing means numeric absence
+TotalBsmtSF,fill with 0,missing means numeric absence
+BsmtFullBath,fill with 0,missing means numeric absence
+BsmtHalfBath,fill with 0,missing means numeric absence
+GarageCars,fill with 0,missing means numeric absence
+GarageArea,fill with 0,missing means numeric absence
+PoolArea,fill with 0,missing means numeric absence
+MiscVal,fill with 0,missing means numeric absence
+LotFrontage,"fill by Neighborhood median, fallback global median",special feature-specific handling
+GarageYrBlt,use for GarageAge; no garage gets GarageAge = -1,special feature-specific handling
+MSZoning,fill with mode,low missing categorical value
+Utilities,fill with mode,low missing categorical value
+Exterior1st,fill with mode,low missing categorical value
+Exterior2nd,fill with mode,low missing categorical value
+Electrical,fill with mode,low missing categorical value
+KitchenQual,fill with mode,low missing categorical value
+Functional,fill with mode,low missing categorical value
+SaleType,fill with mode,low missing categorical value

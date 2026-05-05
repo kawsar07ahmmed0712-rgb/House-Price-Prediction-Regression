@@ -1,0 +1,45 @@
+feature,priority,decision
+TotalSF,core,create in first FE version
+LivingPlusBasementSF,core,create in first FE version
+TotalBath,core,create in first FE version
+TotalPorchSF,core,create in first FE version
+OutdoorSF,core,create in first FE version
+HouseAge,core,create in first FE version
+RemodAge,core,create in first FE version
+GarageAge,core,create in first FE version
+IsNewHouse,core,create in first FE version
+IsRemodeled,core,create in first FE version
+HasGarage,core,create in first FE version
+HasBasement,core,create in first FE version
+HasFireplace,core,create in first FE version
+HasPool,core,create in first FE version
+HasMasVnr,core,create in first FE version
+HasWoodDeck,core,create in first FE version
+HasOpenPorch,core,create in first FE version
+HasScreenPorch,core,create in first FE version
+Has3SsnPorch,core,create in first FE version
+HasMiscFeature,core,create in first FE version
+HasFence,core,create in first FE version
+HasAlley,core,create in first FE version
+ExteriorMatched,core,create in first FE version
+OverallQual_x_TotalSF,high,create and validate
+OverallQual_x_GrLivArea,high,create and validate
+OverallQual_x_TotalBath,high,create and validate
+KitchenQual_Ord_x_GrLivArea,high,create and validate
+ExterQual_Ord_x_GrLivArea,high,create and validate
+BsmtQual_Ord_x_TotalBsmtSF,high,create and validate
+GarageFinish_Ord_x_GarageArea,high,create and validate
+GarageQual_Ord_x_GarageArea,high,create and validate
+ExteriorQualityScore,medium/high,create component score and validate
+KitchenQualityScore,medium/high,create component score and validate
+BasementQualityScore,medium/high,create component score and validate
+BasementFinishScore,medium/high,create component score and validate
+GarageQualityScore,medium/high,create component score and validate
+LuxuryQualityScore,medium/high,create component score and validate
+BasementRatio,low/review,do not prioritize unless CV improves
+FirstFloorRatio,low/review,do not prioritize unless CV improves
+SecondFloorRatio,low/review,do not prioritize unless CV improves
+GarageAreaPerCar,low/review,do not prioritize unless CV improves
+LivingAreaLotRatio,low/review,do not prioritize unless CV improves
+BathPerRoom,low/review,do not prioritize unless CV improves
+AreaPerRoom,low/review,do not prioritize unless CV improves

@@ -1,0 +1,25 @@
+feature,encoding_decision,rare_group_min_count
+MSSubClass,rare grouping + one-hot,10.0
+MSZoning,one-hot,
+Street,one-hot,
+Alley,one-hot,
+LandContour,one-hot,
+LotConfig,one-hot,
+Neighborhood,rare grouping + one-hot,10.0
+Condition1,rare grouping + one-hot,10.0
+Condition2,rare grouping + one-hot,10.0
+BldgType,one-hot,
+HouseStyle,rare grouping + one-hot,10.0
+RoofStyle,rare grouping + one-hot,10.0
+RoofMatl,rare grouping + one-hot,10.0
+Exterior1st,rare grouping + one-hot,10.0
+Exterior2nd,rare grouping + one-hot,10.0
+MasVnrType,one-hot,
+Foundation,one-hot,
+Heating,one-hot,
+CentralAir,one-hot,
+Electrical,one-hot,
+GarageType,one-hot,
+MiscFeature,rare grouping + one-hot,10.0
+SaleType,rare grouping + one-hot,10.0
+SaleCondition,rare grouping + one-hot,10.0
