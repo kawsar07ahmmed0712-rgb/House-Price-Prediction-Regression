@@ -1,0 +1,6 @@
+feature_family,feature_count,features
+area_size,4,"TotalSF, LivingPlusBasementSF, TotalPorchSF, OutdoorSF"
+bath_count,1,TotalBath
+age_time,6,"HouseAge, RemodAge, GarageAge, IsNewHouse, IsRemodeled, HasGarageYrBlt"
+presence_absence,12,"HasGarage, HasBasement, HasFireplace, HasPool, HasMasVnr, HasWoodDeck, HasOpenPorch, HasScreenPorch, Has3SsnPorch, HasMiscFeature, HasFence, HasAlley"
+exterior_consistency,1,ExteriorMatched

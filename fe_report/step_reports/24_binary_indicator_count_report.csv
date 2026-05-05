@@ -1,0 +1,17 @@
+feature,train_0_count,train_1_count,test_0_count,test_1_count
+IsNewHouse,1296,162,1288,171
+IsRemodeled,763,695,797,662
+HasGarageYrBlt,81,1377,78,1381
+HasGarage,81,1377,76,1383
+HasBasement,37,1421,42,1417
+HasFireplace,690,768,730,729
+HasPool,1452,6,1453,6
+HasMasVnr,867,591,891,568
+HasWoodDeck,761,697,762,697
+HasOpenPorch,656,802,642,817
+HasScreenPorch,1342,116,1319,140
+Has3SsnPorch,1434,24,1446,13
+HasMiscFeature,1404,54,1407,52
+HasFence,1177,281,1169,290
+HasAlley,1367,91,1352,107
+ExteriorMatched,214,1244,222,1237
