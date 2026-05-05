@@ -1,0 +1,22 @@
+feature_name,score_column,unique_count,mapped_score_count,eta_squared,spearman_score_corr,pearson_score_corr,median_gap,median_gap_percentage,trend_type,signal_strength,action_hint
+OverallQual,OverallQual_score,10,10,0.6842,0.8098,0.791,346140.0,212.36,monotonic increasing,strong,keep / important ordinal signal
+ExterQual,ExterQual_score,4,4,0.4774,0.684,0.6826,282356.5,173.22,monotonic increasing,strong,keep / important ordinal signal
+KitchenQual,KitchenQual_score,4,4,0.4566,0.6728,0.6596,201750.0,123.77,monotonic increasing,strong,keep / important ordinal signal
+BsmtQual,BsmtQual_score,4,5,0.4538,0.678,0.5852,216200.0,132.64,monotonic increasing,strong,keep / important ordinal signal
+PoolQC,PoolQC_score,3,4,0.4487,0.0585,0.1155,,,non-monotonic / mixed,strong,keep / important ordinal signal
+GarageFinish,GarageFinish_score,3,4,0.2673,0.634,0.5492,115000.0,70.55,monotonic increasing,strong,keep / important ordinal signal
+HeatingQC,HeatingQC_score,5,5,0.1955,0.4914,0.4276,71200.0,43.68,monotonic increasing,moderate,keep / important ordinal signal
+BsmtFinType1,BsmtFinType1_score,6,7,0.1926,0.3616,0.3049,111950.0,68.68,non-monotonic / mixed,moderate,keep / important ordinal signal
+BsmtExposure,BsmtExposure_score,4,5,0.1304,0.3442,0.3747,122950.0,75.43,monotonic increasing,moderate,keep / important ordinal signal
+OverallCond,OverallCond_score,9,9,0.1254,-0.1293,-0.0779,91200.0,55.95,non-monotonic / mixed,moderate,keep / important ordinal signal
+FireplaceQu,FireplaceQu_score,5,6,0.1131,0.5376,0.5204,179250.0,109.97,non-monotonic / mixed,moderate,keep / important ordinal signal
+LotShape,LotShape_score,4,4,0.0764,-0.3211,-0.2678,-57570.0,-35.32,non-monotonic / mixed,weak,keep but review
+PavedDrive,PavedDrive_score,3,3,0.0545,0.2806,0.2314,57500.0,35.28,monotonic increasing,weak,keep / ordered signal exists
+Fence,Fence_score,4,5,0.0509,-0.1862,-0.1469,-5500.0,-3.37,non-monotonic / mixed,weak,keep but review
+BsmtCond,BsmtCond_score,4,5,0.0288,0.2694,0.2126,92079.0,56.49,monotonic increasing,very weak,keep / ordered signal exists
+GarageQual,GarageQual_score,5,6,0.0271,0.3511,0.2738,109115.0,66.94,monotonic increasing,very weak,keep / ordered signal exists
+GarageCond,GarageCond_score,5,6,0.027,0.339,0.2632,48000.0,29.45,non-monotonic / mixed,very weak,keep but review
+ExterCond,ExterCond_score,5,5,0.0236,0.0117,0.0189,55500.0,34.05,non-monotonic / mixed,very weak,keep but review
+Functional,Functional_score,7,7,0.0165,0.1355,0.1076,80500.0,49.39,non-monotonic / mixed,very weak,keep but review
+BsmtFinType2,BsmtFinType2_score,6,7,0.0095,0.0398,-0.0053,99100.0,60.8,non-monotonic / mixed,very weak,keep but review
+LandSlope,LandSlope_score,3,3,0.0027,-0.0503,-0.0512,-23125.0,-14.19,non-monotonic / mixed,very weak,keep but review
