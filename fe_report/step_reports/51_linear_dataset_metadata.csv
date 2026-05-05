@@ -1,0 +1,16 @@
+item,value
+dataset_name,linear_final_dataset_unscaled
+train_shape,"(1458, 343)"
+test_shape,"(1459, 343)"
+feature_count,343
+target_used_for_training,log1p(SalePrice)
+scaling_required_later,True
+scaling_applied_now,False
+encoding,rare grouping + one-hot encoding
+log_transform_applied,True
+log_transformed_feature_count,32
+id_column_removed,True
+missing_total_train,0
+missing_total_test,0
+object_columns_train,0
+object_columns_test,0
