@@ -1,0 +1,6 @@
+feature_family,feature_count,features
+ordinal_score,19,"ExterQual_Ord, ExterCond_Ord, BsmtQual_Ord, BsmtCond_Ord, BsmtExposure_Ord, BsmtFinType1_Ord, BsmtFinType2_Ord, HeatingQC_Ord, KitchenQual_Ord, Functional_Ord, FireplaceQu_Ord, GarageFinish_Ord, GarageQual_Ord, GarageCond_Ord, PavedDrive_Ord, PoolQC_Ord, Fence_Ord, LotShape_Ord, LandSlope_Ord"
+component_score,6,"ExteriorQualityScore, KitchenQualityScore, BasementQualityScore, BasementFinishScore, GarageQualityScore, LuxuryQualityScore"
+quality_size_interaction,5,"OverallQual_x_TotalSF, OverallQual_x_GrLivArea, OverallQual_x_TotalBath, KitchenQual_Ord_x_GrLivArea, ExterQual_Ord_x_GrLivArea"
+basement_interaction,1,BsmtQual_Ord_x_TotalBsmtSF
+garage_interaction,2,"GarageFinish_Ord_x_GarageArea, GarageQual_Ord_x_GarageArea"

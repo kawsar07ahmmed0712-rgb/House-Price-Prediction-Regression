@@ -1,0 +1,9 @@
+interaction_feature,components,interaction_abs_spearman,best_component_abs_spearman,gain_over_best_component,decision_hint
+KitchenQual_Ord_x_GrLivArea,KitchenQual_Ord + GrLivArea,0.8331088019924178,0.732342390416779,0.10076641157563881,strong improvement candidate
+GarageFinish_Ord_x_GarageArea,GarageFinish_Ord + GarageArea,0.7480441395953468,0.6502838232031313,0.0977603163922155,strong improvement candidate
+ExterQual_Ord_x_GrLivArea,ExterQual_Ord + GrLivArea,0.827257625602396,0.732342390416779,0.09491523518561706,strong improvement candidate
+OverallQual_x_TotalSF,OverallQual + TotalSF,0.8953277714202125,0.8209373789249972,0.07439039249521529,strong improvement candidate
+BsmtQual_Ord_x_TotalBsmtSF,BsmtQual_Ord + TotalBsmtSF,0.7291322527632619,0.6789460814150617,0.05018617134820014,strong improvement candidate
+OverallQual_x_GrLivArea,OverallQual + GrLivArea,0.8542325755051094,0.8110822664665365,0.043150309038572976,strong improvement candidate
+OverallQual_x_TotalBath,OverallQual + TotalBath,0.8407687659574719,0.8110822664665365,0.02968649949093538,small improvement / validate with CV
+GarageQual_Ord_x_GarageArea,GarageQual_Ord + GarageArea,0.6573754275063349,0.6502838232031313,0.007091604303203658,small improvement / validate with CV
