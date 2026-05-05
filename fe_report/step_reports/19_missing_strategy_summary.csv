@@ -1,0 +1,6 @@
+missing_strategy,feature_count,train_missing_filled,test_missing_filled
+"Neighborhood median, fallback global median",1,259,227
+fill with 0,9,8,25
+fill with None,15,7473,7536
+intentionally kept for GarageAge feature creation,1,0,0
+train mode,8,1,12

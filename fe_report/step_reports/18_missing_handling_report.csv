@@ -1,0 +1,81 @@
+feature,train_missing_before,train_missing_before_pct,test_missing_before,test_missing_before_pct,train_missing_after,train_missing_after_pct,test_missing_after,test_missing_after_pct,train_missing_reduced,test_missing_reduced,missing_strategy
+PoolQC,1452,99.59,1456,99.79,0,0.0,0,0.0,1452,1456,fill with None
+MiscFeature,1404,96.3,1408,96.5,0,0.0,0,0.0,1404,1408,fill with None
+Alley,1367,93.76,1352,92.67,0,0.0,0,0.0,1367,1352,fill with None
+Fence,1177,80.73,1169,80.12,0,0.0,0,0.0,1177,1169,fill with None
+MasVnrType,872,59.81,894,61.27,0,0.0,0,0.0,872,894,fill with None
+FireplaceQu,690,47.33,730,50.03,0,0.0,0,0.0,690,730,fill with None
+LotFrontage,259,17.76,227,15.56,0,0.0,0,0.0,259,227,"Neighborhood median, fallback global median"
+GarageYrBlt,81,5.56,78,5.35,81,5.56,78,5.35,0,0,intentionally kept for GarageAge feature creation
+GarageFinish,81,5.56,78,5.35,0,0.0,0,0.0,81,78,fill with None
+GarageQual,81,5.56,78,5.35,0,0.0,0,0.0,81,78,fill with None
+GarageCond,81,5.56,78,5.35,0,0.0,0,0.0,81,78,fill with None
+GarageType,81,5.56,76,5.21,0,0.0,0,0.0,81,76,fill with None
+BsmtExposure,38,2.61,44,3.02,0,0.0,0,0.0,38,44,fill with None
+BsmtFinType2,38,2.61,42,2.88,0,0.0,0,0.0,38,42,fill with None
+BsmtCond,37,2.54,45,3.08,0,0.0,0,0.0,37,45,fill with None
+BsmtQual,37,2.54,44,3.02,0,0.0,0,0.0,37,44,fill with None
+BsmtFinType1,37,2.54,42,2.88,0,0.0,0,0.0,37,42,fill with None
+MasVnrArea,8,0.55,15,1.03,0,0.0,0,0.0,8,15,fill with 0
+Electrical,1,0.07,0,0.0,0,0.0,0,0.0,1,0,train mode
+MSZoning,0,0.0,4,0.27,0,0.0,0,0.0,0,4,train mode
+Utilities,0,0.0,2,0.14,0,0.0,0,0.0,0,2,train mode
+BsmtFullBath,0,0.0,2,0.14,0,0.0,0,0.0,0,2,fill with 0
+BsmtHalfBath,0,0.0,2,0.14,0,0.0,0,0.0,0,2,fill with 0
+Functional,0,0.0,2,0.14,0,0.0,0,0.0,0,2,train mode
+Exterior1st,0,0.0,1,0.07,0,0.0,0,0.0,0,1,train mode
+Exterior2nd,0,0.0,1,0.07,0,0.0,0,0.0,0,1,train mode
+BsmtFinSF1,0,0.0,1,0.07,0,0.0,0,0.0,0,1,fill with 0
+BsmtFinSF2,0,0.0,1,0.07,0,0.0,0,0.0,0,1,fill with 0
+BsmtUnfSF,0,0.0,1,0.07,0,0.0,0,0.0,0,1,fill with 0
+TotalBsmtSF,0,0.0,1,0.07,0,0.0,0,0.0,0,1,fill with 0
+KitchenQual,0,0.0,1,0.07,0,0.0,0,0.0,0,1,train mode
+GarageCars,0,0.0,1,0.07,0,0.0,0,0.0,0,1,fill with 0
+GarageArea,0,0.0,1,0.07,0,0.0,0,0.0,0,1,fill with 0
+SaleType,0,0.0,1,0.07,0,0.0,0,0.0,0,1,train mode
+Id,0,0.0,0,0.0,0,0.0,0,0.0,0,0,safety fallback if needed
+MSSubClass,0,0.0,0,0.0,0,0.0,0,0.0,0,0,safety fallback if needed
+LotArea,0,0.0,0,0.0,0,0.0,0,0.0,0,0,safety fallback if needed
+Street,0,0.0,0,0.0,0,0.0,0,0.0,0,0,safety fallback if needed
+LotShape,0,0.0,0,0.0,0,0.0,0,0.0,0,0,safety fallback if needed
+LandContour,0,0.0,0,0.0,0,0.0,0,0.0,0,0,safety fallback if needed
+LotConfig,0,0.0,0,0.0,0,0.0,0,0.0,0,0,safety fallback if needed
+LandSlope,0,0.0,0,0.0,0,0.0,0,0.0,0,0,safety fallback if needed
+Neighborhood,0,0.0,0,0.0,0,0.0,0,0.0,0,0,safety fallback if needed
+Condition1,0,0.0,0,0.0,0,0.0,0,0.0,0,0,safety fallback if needed
+Condition2,0,0.0,0,0.0,0,0.0,0,0.0,0,0,safety fallback if needed
+BldgType,0,0.0,0,0.0,0,0.0,0,0.0,0,0,safety fallback if needed
+HouseStyle,0,0.0,0,0.0,0,0.0,0,0.0,0,0,safety fallback if needed
+OverallQual,0,0.0,0,0.0,0,0.0,0,0.0,0,0,safety fallback if needed
+OverallCond,0,0.0,0,0.0,0,0.0,0,0.0,0,0,safety fallback if needed
+YearBuilt,0,0.0,0,0.0,0,0.0,0,0.0,0,0,safety fallback if needed
+YearRemodAdd,0,0.0,0,0.0,0,0.0,0,0.0,0,0,safety fallback if needed
+RoofStyle,0,0.0,0,0.0,0,0.0,0,0.0,0,0,safety fallback if needed
+RoofMatl,0,0.0,0,0.0,0,0.0,0,0.0,0,0,safety fallback if needed
+ExterQual,0,0.0,0,0.0,0,0.0,0,0.0,0,0,safety fallback if needed
+ExterCond,0,0.0,0,0.0,0,0.0,0,0.0,0,0,safety fallback if needed
+Foundation,0,0.0,0,0.0,0,0.0,0,0.0,0,0,safety fallback if needed
+Heating,0,0.0,0,0.0,0,0.0,0,0.0,0,0,safety fallback if needed
+HeatingQC,0,0.0,0,0.0,0,0.0,0,0.0,0,0,safety fallback if needed
+CentralAir,0,0.0,0,0.0,0,0.0,0,0.0,0,0,safety fallback if needed
+1stFlrSF,0,0.0,0,0.0,0,0.0,0,0.0,0,0,safety fallback if needed
+2ndFlrSF,0,0.0,0,0.0,0,0.0,0,0.0,0,0,safety fallback if needed
+LowQualFinSF,0,0.0,0,0.0,0,0.0,0,0.0,0,0,safety fallback if needed
+GrLivArea,0,0.0,0,0.0,0,0.0,0,0.0,0,0,safety fallback if needed
+FullBath,0,0.0,0,0.0,0,0.0,0,0.0,0,0,safety fallback if needed
+HalfBath,0,0.0,0,0.0,0,0.0,0,0.0,0,0,safety fallback if needed
+BedroomAbvGr,0,0.0,0,0.0,0,0.0,0,0.0,0,0,safety fallback if needed
+KitchenAbvGr,0,0.0,0,0.0,0,0.0,0,0.0,0,0,safety fallback if needed
+TotRmsAbvGrd,0,0.0,0,0.0,0,0.0,0,0.0,0,0,safety fallback if needed
+Fireplaces,0,0.0,0,0.0,0,0.0,0,0.0,0,0,safety fallback if needed
+PavedDrive,0,0.0,0,0.0,0,0.0,0,0.0,0,0,safety fallback if needed
+WoodDeckSF,0,0.0,0,0.0,0,0.0,0,0.0,0,0,safety fallback if needed
+OpenPorchSF,0,0.0,0,0.0,0,0.0,0,0.0,0,0,safety fallback if needed
+EnclosedPorch,0,0.0,0,0.0,0,0.0,0,0.0,0,0,safety fallback if needed
+3SsnPorch,0,0.0,0,0.0,0,0.0,0,0.0,0,0,safety fallback if needed
+ScreenPorch,0,0.0,0,0.0,0,0.0,0,0.0,0,0,safety fallback if needed
+PoolArea,0,0.0,0,0.0,0,0.0,0,0.0,0,0,fill with 0
+MiscVal,0,0.0,0,0.0,0,0.0,0,0.0,0,0,fill with 0
+MoSold,0,0.0,0,0.0,0,0.0,0,0.0,0,0,safety fallback if needed
+YrSold,0,0.0,0,0.0,0,0.0,0,0.0,0,0,safety fallback if needed
+SaleCondition,0,0.0,0,0.0,0,0.0,0,0.0,0,0,safety fallback if needed

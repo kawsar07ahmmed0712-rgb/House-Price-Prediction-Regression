@@ -1,0 +1,2 @@
+feature,train_missing_before,train_missing_before_pct,test_missing_before,test_missing_before_pct,train_missing_after,train_missing_after_pct,test_missing_after,test_missing_after_pct,train_missing_reduced,test_missing_reduced,missing_strategy
+GarageYrBlt,81,5.56,78,5.35,81,5.56,78,5.35,0,0,intentionally kept for GarageAge feature creation
