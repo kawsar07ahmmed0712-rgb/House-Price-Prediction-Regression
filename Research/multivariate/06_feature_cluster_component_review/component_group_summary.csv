@@ -1,0 +1,14 @@
+component_group,feature_count,avg_signal_score,max_signal_score,strong_feature_count,moderate_feature_count,weak_or_lower_count
+quality_condition,15,0.5103,0.8939,7,2,6
+area_size,9,0.482,0.8197,3,3,3
+location_zoning,6,0.2754,0.7386,1,0,5
+bath_room_count,8,0.3565,0.7037,2,1,5
+exterior_material,6,0.412,0.6909,1,2,3
+garage,9,0.5286,0.6907,3,4,2
+basement,11,0.2995,0.6819,2,1,8
+time_age,8,0.4595,0.6527,2,4,2
+luxury_sparse,6,0.2354,0.5422,0,2,4
+building_structure,6,0.2351,0.5063,0,1,5
+outdoor_porch,8,0.2627,0.4776,0,2,6
+sale_transaction,2,0.3693,0.3705,0,0,2
+utilities_access,8,0.147,0.2513,0,0,8

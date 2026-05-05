@@ -1,0 +1,14 @@
+component_group,component_priority,component_signal_decision,feature_count,max_signal_score,avg_signal_score,recommended_feature_action
+quality_condition,high priority,core predictive component,15,0.8939,0.5103,create quality scores and quality-area interactions
+area_size,high priority,core predictive component,9,0.8197,0.482,create TotalSF and keep core area features
+location_zoning,high priority,core predictive component,6,0.7386,0.2754,rare-group location categories; review location-aware area features
+bath_room_count,medium priority,core predictive component,8,0.7037,0.3565,create TotalBath and keep original bath counts for validation
+exterior_material,medium priority,core predictive component,6,0.6909,0.412,rare-group exterior categories; create ExteriorMatched
+garage,high priority,core predictive component,9,0.6907,0.5286,"create HasGarage, GarageScore, garage quality/finish features"
+basement,high priority,core predictive component,11,0.6819,0.2995,"create HasBasement, BasementQualityScore, basement size-quality interaction"
+time_age,medium priority,core predictive component,8,0.6527,0.4595,prefer age features over raw year features
+luxury_sparse,review priority,useful supporting component,6,0.5422,0.2354,keep sparse luxury indicators; do not drop only due to rarity
+building_structure,medium priority,useful supporting component,6,0.5063,0.2351,keep as categorical; review MSSubClass/HouseStyle interactions
+outdoor_porch,review priority,useful supporting component,8,0.4776,0.2627,create selected Has... indicators; keep OpenPorchSF and OutdoorSF for validation
+sale_transaction,review priority,weak but possible interaction component,2,0.3705,0.3693,keep but check prediction-time availability
+utilities_access,review priority,weak but possible interaction component,8,0.2513,0.147,keep for now; review dominated/near-constant features later

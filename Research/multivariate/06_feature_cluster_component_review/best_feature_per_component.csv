@@ -1,0 +1,14 @@
+component_group,feature_name,feature_dtype,metric_name,raw_metric_value,component_signal_score,signal_strength,unique_count
+quality_condition,OverallQual_x_TotalSF,int64,abs_spearman_corr,0.8939,0.8939,strong,1168
+area_size,TotalSF,int64,abs_spearman_corr,0.8197,0.8197,strong,963
+location_zoning,Neighborhood,object,sqrt_eta_squared,0.5456,0.7386,strong,25
+bath_room_count,TotalBath,float64,abs_spearman_corr,0.7037,0.7037,strong,10
+exterior_material,ExterQual,object,sqrt_eta_squared,0.4774,0.6909,strong,4
+garage,GarageCars,int64,abs_spearman_corr,0.6907,0.6907,strong,5
+basement,BsmtQual,object,sqrt_eta_squared,0.465,0.6819,strong,4
+time_age,YearBuilt,int64,abs_spearman_corr,0.6527,0.6527,strong,112
+luxury_sparse,FireplaceQu,object,sqrt_eta_squared,0.294,0.5422,moderate,5
+building_structure,Foundation,object,sqrt_eta_squared,0.2564,0.5063,moderate,6
+outdoor_porch,OpenPorchSF,int64,abs_spearman_corr,0.4776,0.4776,moderate,202
+sale_transaction,SaleType,object,sqrt_eta_squared,0.1373,0.3705,weak,9
+utilities_access,CentralAir,object,sqrt_eta_squared,0.0632,0.2513,weak,2

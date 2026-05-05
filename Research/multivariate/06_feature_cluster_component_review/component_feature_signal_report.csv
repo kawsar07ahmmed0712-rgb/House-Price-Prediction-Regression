@@ -1,0 +1,103 @@
+component_group,feature_name,feature_dtype,metric_name,raw_metric_value,component_signal_score,signal_strength,unique_count
+area_size,TotalSF,int64,abs_spearman_corr,0.8197,0.8197,strong,963
+area_size,GrLivArea,int64,abs_spearman_corr,0.7313,0.7313,strong,861
+area_size,TotalBsmtSF,int64,abs_spearman_corr,0.6027,0.6027,strong,721
+area_size,1stFlrSF,int64,abs_spearman_corr,0.5754,0.5754,moderate,753
+area_size,LotArea,int64,abs_spearman_corr,0.4565,0.4565,moderate,1073
+area_size,MasVnrArea,float64,abs_spearman_corr,0.4159,0.4159,moderate,327
+area_size,LotFrontage,float64,abs_spearman_corr,0.3756,0.3756,weak,110
+area_size,2ndFlrSF,int64,abs_spearman_corr,0.2936,0.2936,weak,417
+area_size,LowQualFinSF,int64,abs_spearman_corr,-0.0677,0.0677,very weak,24
+basement,BsmtQual,object,sqrt_eta_squared,0.465,0.6819,strong,4
+basement,TotalBsmtSF,int64,abs_spearman_corr,0.6027,0.6027,strong,721
+basement,BsmtFinType1,object,sqrt_eta_squared,0.2108,0.4591,moderate,6
+basement,BsmtExposure,object,sqrt_eta_squared,0.1495,0.3867,weak,4
+basement,BsmtFinSF1,int64,abs_spearman_corr,0.3019,0.3019,weak,637
+basement,BsmtCond,object,sqrt_eta_squared,0.0514,0.2267,weak,4
+basement,BsmtFullBath,int64,abs_spearman_corr,0.2251,0.2251,weak,4
+basement,BsmtUnfSF,int64,abs_spearman_corr,0.1852,0.1852,very weak,780
+basement,BsmtFinType2,object,sqrt_eta_squared,0.0303,0.1741,very weak,6
+basement,BsmtFinSF2,int64,abs_spearman_corr,-0.0388,0.0388,very weak,144
+basement,BsmtHalfBath,int64,abs_spearman_corr,-0.0122,0.0122,very weak,3
+bath_room_count,TotalBath,float64,abs_spearman_corr,0.7037,0.7037,strong,10
+bath_room_count,FullBath,int64,abs_spearman_corr,0.636,0.636,strong,4
+bath_room_count,TotRmsAbvGrd,int64,abs_spearman_corr,0.5326,0.5326,moderate,12
+bath_room_count,HalfBath,int64,abs_spearman_corr,0.343,0.343,weak,3
+bath_room_count,BedroomAbvGr,int64,abs_spearman_corr,0.2349,0.2349,weak,8
+bath_room_count,BsmtFullBath,int64,abs_spearman_corr,0.2251,0.2251,weak,4
+bath_room_count,KitchenAbvGr,int64,abs_spearman_corr,-0.1648,0.1648,very weak,4
+bath_room_count,BsmtHalfBath,int64,abs_spearman_corr,-0.0122,0.0122,very weak,3
+building_structure,Foundation,object,sqrt_eta_squared,0.2564,0.5063,moderate,6
+building_structure,HouseStyle,object,sqrt_eta_squared,0.0863,0.2938,weak,8
+building_structure,RoofStyle,object,sqrt_eta_squared,0.0577,0.2402,weak,6
+building_structure,BldgType,object,sqrt_eta_squared,0.0345,0.1858,very weak,5
+building_structure,RoofMatl,object,sqrt_eta_squared,0.0314,0.1772,very weak,8
+building_structure,MSSubClass,int64,abs_spearman_corr,0.0072,0.0072,very weak,15
+exterior_material,ExterQual,object,sqrt_eta_squared,0.4774,0.6909,strong,4
+exterior_material,MasVnrType,object,sqrt_eta_squared,0.1833,0.4281,moderate,3
+exterior_material,MasVnrArea,float64,abs_spearman_corr,0.4159,0.4159,moderate,327
+exterior_material,Exterior2nd,object,sqrt_eta_squared,0.1538,0.3922,weak,16
+exterior_material,Exterior1st,object,sqrt_eta_squared,0.1528,0.3909,weak,15
+exterior_material,ExterCond,object,sqrt_eta_squared,0.0236,0.1537,very weak,5
+garage,GarageCars,int64,abs_spearman_corr,0.6907,0.6907,strong,5
+garage,GarageScore,float64,abs_spearman_corr,0.6683,0.6683,strong,493
+garage,GarageArea,int64,abs_spearman_corr,0.6494,0.6494,strong,441
+garage,GarageYrBlt,float64,abs_spearman_corr,0.5633,0.5633,moderate,97
+garage,GarageAge,float64,abs_spearman_corr,-0.5625,0.5625,moderate,101
+garage,GarageFinish,object,sqrt_eta_squared,0.3059,0.5531,moderate,3
+garage,GarageType,object,sqrt_eta_squared,0.2492,0.4992,moderate,6
+garage,GarageQual,object,sqrt_eta_squared,0.0814,0.2853,weak,5
+garage,GarageCond,object,sqrt_eta_squared,0.0813,0.2852,weak,5
+location_zoning,Neighborhood,object,sqrt_eta_squared,0.5456,0.7386,strong,25
+location_zoning,MSZoning,object,sqrt_eta_squared,0.1076,0.328,weak,5
+location_zoning,Condition1,object,sqrt_eta_squared,0.0326,0.1806,very weak,9
+location_zoning,LandContour,object,sqrt_eta_squared,0.0258,0.1606,very weak,4
+location_zoning,LotConfig,object,sqrt_eta_squared,0.021,0.145,very weak,5
+location_zoning,Condition2,object,sqrt_eta_squared,0.0099,0.0995,very weak,8
+luxury_sparse,FireplaceQu,object,sqrt_eta_squared,0.294,0.5422,moderate,5
+luxury_sparse,Fireplaces,int64,abs_spearman_corr,0.5192,0.5192,moderate,4
+luxury_sparse,PoolQC,object,sqrt_eta_squared,0.0212,0.1456,very weak,3
+luxury_sparse,MiscFeature,object,sqrt_eta_squared,0.0071,0.0841,very weak,4
+luxury_sparse,MiscVal,int64,abs_spearman_corr,-0.0627,0.0627,very weak,21
+luxury_sparse,PoolArea,int64,abs_spearman_corr,0.0585,0.0585,very weak,8
+outdoor_porch,OpenPorchSF,int64,abs_spearman_corr,0.4776,0.4776,moderate,202
+outdoor_porch,OutdoorSF,int64,abs_spearman_corr,0.4252,0.4252,moderate,427
+outdoor_porch,WoodDeckSF,int64,abs_spearman_corr,0.3538,0.3538,weak,274
+outdoor_porch,TotalPorchSF,int64,abs_spearman_corr,0.2727,0.2727,weak,287
+outdoor_porch,EnclosedPorch,int64,abs_spearman_corr,-0.2184,0.2184,weak,120
+outdoor_porch,Fence,object,sqrt_eta_squared,0.0356,0.1887,very weak,4
+outdoor_porch,ScreenPorch,int64,abs_spearman_corr,0.1001,0.1001,very weak,76
+outdoor_porch,3SsnPorch,int64,abs_spearman_corr,0.0654,0.0654,very weak,20
+quality_condition,OverallQual_x_TotalSF,int64,abs_spearman_corr,0.8939,0.8939,strong,1168
+quality_condition,OverallQual_x_GrLivArea,int64,abs_spearman_corr,0.8529,0.8529,strong,1133
+quality_condition,OverallQual_x_TotalBath,float64,abs_spearman_corr,0.8395,0.8395,strong,36
+quality_condition,OverallQual,int64,abs_spearman_corr,0.8098,0.8098,strong,10
+quality_condition,ExterQual,object,sqrt_eta_squared,0.4774,0.6909,strong,4
+quality_condition,BsmtQual,object,sqrt_eta_squared,0.465,0.6819,strong,4
+quality_condition,KitchenQual,object,sqrt_eta_squared,0.4566,0.6757,strong,4
+quality_condition,FireplaceQu,object,sqrt_eta_squared,0.294,0.5422,moderate,5
+quality_condition,HeatingQC,object,sqrt_eta_squared,0.1955,0.4422,moderate,5
+quality_condition,GarageQual,object,sqrt_eta_squared,0.0814,0.2853,weak,5
+quality_condition,GarageCond,object,sqrt_eta_squared,0.0813,0.2852,weak,5
+quality_condition,BsmtCond,object,sqrt_eta_squared,0.0514,0.2267,weak,4
+quality_condition,ExterCond,object,sqrt_eta_squared,0.0236,0.1537,very weak,5
+quality_condition,PoolQC,object,sqrt_eta_squared,0.0212,0.1456,very weak,3
+quality_condition,OverallCond,int64,abs_spearman_corr,-0.1293,0.1293,very weak,9
+sale_transaction,SaleType,object,sqrt_eta_squared,0.1373,0.3705,weak,9
+sale_transaction,SaleCondition,object,sqrt_eta_squared,0.1355,0.3681,weak,6
+time_age,YearBuilt,int64,abs_spearman_corr,0.6527,0.6527,strong,112
+time_age,HouseAge,int64,abs_spearman_corr,-0.6501,0.6501,strong,122
+time_age,RemodAge,int64,abs_spearman_corr,-0.5766,0.5766,moderate,61
+time_age,YearRemodAdd,int64,abs_spearman_corr,0.5712,0.5712,moderate,61
+time_age,GarageYrBlt,float64,abs_spearman_corr,0.5633,0.5633,moderate,97
+time_age,GarageAge,float64,abs_spearman_corr,-0.5625,0.5625,moderate,101
+time_age,MoSold,int64,abs_spearman_corr,0.0694,0.0694,very weak,12
+time_age,YrSold,int64,abs_spearman_corr,-0.0299,0.0299,very weak,5
+utilities_access,CentralAir,object,sqrt_eta_squared,0.0632,0.2513,weak,2
+utilities_access,Electrical,object,sqrt_eta_squared,0.0597,0.2443,weak,5
+utilities_access,PavedDrive,object,sqrt_eta_squared,0.0545,0.2335,weak,3
+utilities_access,Alley,object,sqrt_eta_squared,0.0204,0.1429,very weak,2
+utilities_access,Functional,object,sqrt_eta_squared,0.0165,0.1284,very weak,7
+utilities_access,Heating,object,sqrt_eta_squared,0.0144,0.1202,very weak,6
+utilities_access,Street,object,sqrt_eta_squared,0.0017,0.041,very weak,2
+utilities_access,Utilities,object,sqrt_eta_squared,0.0002,0.0143,very weak,2
