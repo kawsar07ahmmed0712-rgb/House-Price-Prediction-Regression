@@ -1,0 +1,9 @@
+item,path,exists
+Data folder,c:\Users\USER\Kawsar_Ahmmed\ALL_Projects_Lab\Machine_Learning\House-Price-Prediction-Regression\Research\Data,False
+Research folder,c:\Users\USER\Kawsar_Ahmmed\ALL_Projects_Lab\Machine_Learning\House-Price-Prediction-Regression\Research\Research,False
+Bivariate reports folder,c:\Users\USER\Kawsar_Ahmmed\ALL_Projects_Lab\Machine_Learning\House-Price-Prediction-Regression\Research\Research\bivariate,False
+Multivariate reports folder,c:\Users\USER\Kawsar_Ahmmed\ALL_Projects_Lab\Machine_Learning\House-Price-Prediction-Regression\Research\Research\multivariate,False
+Train CSV,c:\Users\USER\Kawsar_Ahmmed\ALL_Projects_Lab\Machine_Learning\House-Price-Prediction-Regression\Research\Data\train.csv,False
+Test CSV,c:\Users\USER\Kawsar_Ahmmed\ALL_Projects_Lab\Machine_Learning\House-Price-Prediction-Regression\Research\Data\test.csv,False
+Data description,c:\Users\USER\Kawsar_Ahmmed\ALL_Projects_Lab\Machine_Learning\House-Price-Prediction-Regression\Research\Data\data_description.txt,False
+Sample submission,c:\Users\USER\Kawsar_Ahmmed\ALL_Projects_Lab\Machine_Learning\House-Price-Prediction-Regression\Research\Data\sample_submission.csv,False

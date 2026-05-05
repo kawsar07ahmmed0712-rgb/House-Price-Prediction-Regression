@@ -1,0 +1,8 @@
+source_name,path,exists
+main_eda_notebook,C:\Users\USER\Kawsar_Ahmmed\ALL_Projects_Lab\Machine_Learning\House-Price-Prediction-Regression\EDA_House_Price_clean_structured.ipynb,False
+advanced_fe_route_markdown,C:\Users\USER\Kawsar_Ahmmed\ALL_Projects_Lab\Machine_Learning\House-Price-Prediction-Regression\advanced_feature_engineering_route_house_price (1).md,True
+feature_engineering_markdown,C:\Users\USER\Kawsar_Ahmmed\ALL_Projects_Lab\Machine_Learning\House-Price-Prediction-Regression\Feature_Engineering.md,False
+univariate_folder,C:\Users\USER\Kawsar_Ahmmed\ALL_Projects_Lab\Machine_Learning\House-Price-Prediction-Regression\Research\univariate,True
+bivariate_folder,C:\Users\USER\Kawsar_Ahmmed\ALL_Projects_Lab\Machine_Learning\House-Price-Prediction-Regression\Research\bivariate,True
+multivariate_folder,C:\Users\USER\Kawsar_Ahmmed\ALL_Projects_Lab\Machine_Learning\House-Price-Prediction-Regression\Research\multivariate,True
+data_description,C:\Users\USER\Kawsar_Ahmmed\ALL_Projects_Lab\Machine_Learning\House-Price-Prediction-Regression\Data\data_description.txt,True

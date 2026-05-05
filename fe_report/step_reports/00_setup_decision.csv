@@ -1,0 +1,7 @@
+decision_area,decision,reason
+EDA repeat,No EDA will be repeated in Feature Engineering notebook.,EDA already completed in Research folders and EDA notebook.
+Data source,Use train.csv and test.csv from Data/ folder.,Matches current project repository structure.
+Report output,Save all FE reports inside fe_report/.,Keeps FE outputs separate from EDA Research reports.
+Dataset output,Save all clean and engineered datasets inside fe_result/.,Keeps model-ready outputs organized.
+Target,Use log1p(SalePrice) for modeling.,RMSLE/log RMSE target.
+Id,"Keep Id for tracking/submission, remove from model features later.",Id is not predictive.
