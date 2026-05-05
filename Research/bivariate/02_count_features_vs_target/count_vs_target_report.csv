@@ -1,0 +1,10 @@
+feature_name,unique_count,min_value,max_value,spearman_corr,eta_squared,target_signal_strength,median_gap,median_gap_percentage,best_count_level,best_level_median_saleprice,lowest_count_level,lowest_level_median_saleprice,rare_level_count,action_hint
+GarageCars,5,0,4,0.6907,0.4912,strong,195000.0,119.63,3.0,295000.0,0.0,100000.0,1,keep / important discrete signal
+FullBath,4,0,3,0.636,0.3364,strong,187625.0,115.11,3.0,320000.0,1.0,132375.0,1,keep / important discrete signal
+TotRmsAbvGrd,12,2,14,0.5326,0.2991,strong,211738.5,129.9,11.0,311738.5,3.0,100000.0,2,keep / important discrete signal
+Fireplaces,4,0,3,0.5192,0.2322,strong,71900.0,44.11,2.0,206900.0,0.0,135000.0,1,keep / important discrete signal
+HalfBath,3,0,2,0.343,0.0927,weak,46000.0,28.22,1.0,189000.0,0.0,143000.0,0,keep / weak standalone signal
+BedroomAbvGr,8,0,8,0.2349,0.0587,weak,65250.0,40.03,0.0,202500.0,2.0,137250.0,3,keep but review rare count levels
+BsmtFullBath,4,0,3,0.2251,0.0535,weak,33850.0,20.77,2.0,188000.0,0.0,154150.0,1,keep but review rare count levels
+KitchenAbvGr,4,0,3,-0.1648,0.0199,very weak,31650.0,19.42,1.0,165550.0,2.0,133900.0,2,keep but review rare count levels
+BsmtHalfBath,3,0,2,-0.0122,0.0003,very weak,4250.0,2.61,0.0,163250.0,1.0,159000.0,1,keep but review rare count levels
