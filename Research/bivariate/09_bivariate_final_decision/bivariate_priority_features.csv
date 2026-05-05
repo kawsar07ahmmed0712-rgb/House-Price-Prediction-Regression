@@ -1,0 +1,44 @@
+feature_name,feature_group,signal_strength,normalized_signal_score,priority_level,final_keep_decision,engineering_action,review_note,final_modeling_note
+OverallQual,ordinal_categorical,strong,0.8272,high priority,keep,quality score / ordinal encoding candidate,No major bivariate issue found.,Use ordinal encoding; consider quality-combination features.
+Neighborhood,nominal_categorical,strong,0.7386,high priority,keep,rare grouping + one-hot encoding candidate,No major bivariate issue found.,Group rare labels before one-hot encoding.
+GrLivArea,numeric_continuous,strong,0.7313,high priority,keep but review,area feature / combine or transform candidate,Outlier-sensitive area feature; review extreme values before final modeling.,Use directly for tree models; consider log/robust treatment for linear models.
+GarageCars,count_discrete,strong,0.7009,high priority,keep,garage capacity/size feature candidate,No major bivariate issue found.,Use directly and consider garage-combination feature.
+ExterQual,ordinal_categorical,strong,0.6909,high priority,keep,quality score / ordinal encoding candidate,No major bivariate issue found.,Use ordinal encoding; consider quality-combination features.
+KitchenQual,ordinal_categorical,strong,0.6757,high priority,keep,quality score / ordinal encoding candidate,No major bivariate issue found.,Use ordinal encoding; consider quality-combination features.
+BsmtQual,ordinal_categorical,strong,0.6736,high priority,keep,presence/absence indicator candidate,No major bivariate issue found.,Keep original feature and create selected Has... indicator.
+PoolQC,ordinal_categorical,strong,0.6699,high priority,keep but sparse luxury review,presence/absence indicator candidate,Sparse luxury feature with strong signal but very low presence count.,Keep original feature and create selected Has... indicator.
+HouseAge,time_continuous,strong,0.6501,high priority,keep,age/time engineered feature candidate,No major bivariate issue found.,Prefer age features over raw year values.
+GarageArea,numeric_continuous,strong,0.6494,high priority,keep,garage capacity/size feature candidate,Outlier-sensitive area feature; review extreme values before final modeling.,Use directly and consider garage-combination feature.
+FullBath,numeric_continuous,strong,0.636,high priority,keep,bathroom-combination candidate,No major bivariate issue found.,Use in TotalBath feature.
+TotalBsmtSF,numeric_continuous,strong,0.6027,high priority,keep,presence/absence indicator candidate,Outlier-sensitive area feature; review extreme values before final modeling.,Keep original feature and create selected Has... indicator.
+GarageAge,time_continuous,moderate,0.592,high priority,keep,age/time engineered feature candidate,No major bivariate issue found.,Prefer age features over raw year values.
+RemodAge,time_continuous,moderate,0.5766,high priority,keep,age/time engineered feature candidate,No major bivariate issue found.,Prefer age features over raw year values.
+1stFlrSF,numeric_continuous,moderate,0.5754,high priority,keep,area feature / combine or transform candidate,Outlier-sensitive area feature; review extreme values before final modeling.,Use directly for tree models; consider log/robust treatment for linear models.
+TotRmsAbvGrd,count_discrete,strong,0.5469,high priority,keep,keep for model validation,No major bivariate issue found.,Use in baseline model and validate by cross-validation.
+Fireplaces,numeric_continuous,moderate,0.5192,high priority,keep,fireplace presence/quality candidate,No major bivariate issue found.,Create HasFireplace and keep fireplace quality.
+GarageFinish,ordinal_categorical,strong,0.517,high priority,keep,quality score / ordinal encoding candidate,No major bivariate issue found.,Use ordinal encoding; consider quality-combination features.
+Foundation,nominal_categorical,strong,0.5064,high priority,keep,keep for model validation,No major bivariate issue found.,Use in baseline model and validate by cross-validation.
+GarageType,nominal_categorical,strong,0.4992,high priority,keep,presence/absence indicator candidate,No major bivariate issue found.,Keep original feature and create selected Has... indicator.
+MSSubClass,nominal_categorical,strong,0.4963,high priority,keep,rare grouping + one-hot encoding candidate,No major bivariate issue found.,Group rare labels before one-hot encoding.
+OpenPorchSF,numeric_continuous,moderate,0.4776,high priority,keep but review,presence/absence indicator candidate,"Review-sensitive feature due to sparsity, availability, dominance, weak signal, or outlier behavior.",Keep original feature and create selected Has... indicator.
+LotArea,numeric_continuous,moderate,0.4565,high priority,keep but review,area feature / combine or transform candidate,Outlier-sensitive area feature; review extreme values before final modeling.,Use directly for tree models; consider log/robust treatment for linear models.
+PoolArea,numeric_zero_absence,strong,0.4423,high priority,keep but sparse luxury review,presence/absence indicator candidate,Sparse luxury feature with strong signal but very low presence count.,Keep original feature and create selected Has... indicator.
+HeatingQC,ordinal_categorical,moderate,0.4422,high priority,keep,quality score / ordinal encoding candidate,No major bivariate issue found.,Use ordinal encoding; consider quality-combination features.
+BsmtFinType1,ordinal_categorical,moderate,0.4389,high priority,keep,keep for model validation,No major bivariate issue found.,Use in baseline model and validate by cross-validation.
+IsNewHouse,time_group,moderate,0.4336,high priority,keep,age/time engineered feature candidate,No major bivariate issue found.,Prefer age features over raw year values.
+MasVnrType,nominal_categorical,moderate,0.4281,high priority,keep,presence/absence indicator candidate,No major bivariate issue found.,Keep original feature and create selected Has... indicator.
+MasVnrArea,numeric_continuous,moderate,0.4213,high priority,keep,presence/absence indicator candidate,No major bivariate issue found.,Keep original feature and create selected Has... indicator.
+GarageQual,categorical_absence,strong,0.4141,high priority,keep,quality score / ordinal encoding candidate,No major bivariate issue found.,Use ordinal encoding; consider quality-combination features.
+GarageCond,categorical_absence,strong,0.4141,high priority,keep,quality score / ordinal encoding candidate,No major bivariate issue found.,Use ordinal encoding; consider quality-combination features.
+LotFrontage,numeric_continuous,moderate,0.4091,medium priority,keep,keep for model validation,No major bivariate issue found.,Use in baseline model and validate by cross-validation.
+Exterior2nd,nominal_categorical,moderate,0.3922,medium priority,keep,rare grouping + one-hot encoding candidate,No major bivariate issue found.,Group rare labels before one-hot encoding.
+Exterior1st,nominal_categorical,moderate,0.3909,medium priority,keep,rare grouping + one-hot encoding candidate,No major bivariate issue found.,Group rare labels before one-hot encoding.
+BsmtCond,categorical_absence,moderate,0.3877,medium priority,keep,quality score / ordinal encoding candidate,No major bivariate issue found.,Use ordinal encoding; consider quality-combination features.
+BsmtExposure,categorical_absence,moderate,0.3741,high priority,keep,keep for model validation,No major bivariate issue found.,Use in baseline model and validate by cross-validation.
+BsmtFinType2,categorical_absence,moderate,0.3741,medium priority,keep,keep for model validation,No major bivariate issue found.,Use in baseline model and validate by cross-validation.
+SaleType,nominal_categorical,moderate,0.3705,medium priority,keep but availability review,keep for model validation,Sale transaction feature; confirm prediction-time availability.,Use in baseline model and validate by cross-validation.
+SaleCondition,nominal_categorical,moderate,0.3681,medium priority,keep but availability review,keep for model validation,Sale transaction feature; confirm prediction-time availability.,Use in baseline model and validate by cross-validation.
+OverallCond,ordinal_categorical,moderate,0.3541,medium priority,keep,quality score / ordinal encoding candidate,No major bivariate issue found.,Use ordinal encoding; consider quality-combination features.
+FireplaceQu,categorical_absence,moderate,0.3436,medium priority,keep,fireplace presence/quality candidate,No major bivariate issue found.,Create HasFireplace and keep fireplace quality.
+MSZoning,nominal_categorical,moderate,0.328,medium priority,keep,keep for model validation,No major bivariate issue found.,Use in baseline model and validate by cross-validation.
+EnclosedPorch,numeric_zero_absence,moderate,0.2248,medium priority,keep but review,keep for model validation,"Review-sensitive feature due to sparsity, availability, dominance, weak signal, or outlier behavior.",Use in baseline model and validate by cross-validation.

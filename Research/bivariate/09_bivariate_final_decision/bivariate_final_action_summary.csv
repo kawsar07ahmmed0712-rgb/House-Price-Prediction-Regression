@@ -1,0 +1,10 @@
+priority_level,final_keep_decision,feature_count
+high priority,keep,27
+high priority,keep but review,3
+high priority,keep but sparse luxury review,2
+low priority,keep,17
+low priority,keep but review,4
+medium priority,keep,8
+medium priority,keep but availability review,2
+medium priority,keep but review,1
+review priority,keep for now / multivariate review,18
