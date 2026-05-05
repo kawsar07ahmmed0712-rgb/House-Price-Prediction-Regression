@@ -1,0 +1,16 @@
+new_feature,feature_type,components,priority,reason
+TotalSF,area_combination,TotalBsmtSF + 1stFlrSF + 2ndFlrSF,high,strong area-size signal
+TotalBath,bath_combination,FullBath + 0.5*HalfBath + BsmtFullBath + 0.5*BsmtHalfBath,high,stronger than individual bath features
+GarageScore,garage_combination,GarageCars + GarageArea component,medium,"garage group is strong, but GarageCars remains very strong alone"
+OverallQual_x_TotalSF,numeric_interaction,OverallQual * TotalSF,very high,best numeric interaction candidate
+OverallQual_x_GrLivArea,numeric_interaction,OverallQual * GrLivArea,high,quality-adjusted living area
+OverallQual_x_TotalBath,numeric_interaction,OverallQual * TotalBath,high,quality-adjusted bathroom value
+HasGarage,presence_indicator,GarageArea / GarageType,high,garage absence is meaningful
+HasBasement,presence_indicator,TotalBsmtSF / BsmtQual,high,basement absence is meaningful
+HasFireplace,presence_indicator,Fireplaces / FireplaceQu,medium,fireplace presence has useful signal
+HasPool,presence_indicator,PoolArea / PoolQC,review,sparse luxury feature
+HasMasVnr,presence_indicator,MasVnrArea / MasVnrType,medium,masonry veneer presence has target signal
+ExteriorMatched,categorical_consistency,Exterior1st == Exterior2nd,medium,primary and secondary exterior materials are associated
+BasementQualityScore,component_score,BsmtQual + BsmtCond + BsmtExposure,high,basement component is strong
+GarageQualityScore,component_score,GarageQual + GarageCond + GarageFinish,high,garage component is strong
+NeighborhoodPriceTier,location_encoding_review,Neighborhood,review,strong location signal but must avoid leakage

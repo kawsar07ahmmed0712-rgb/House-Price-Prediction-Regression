@@ -1,0 +1,81 @@
+feature_name,dtype,missing_count,missing_percentage,unique_count,component_groups,component_signal_score,signal_strength,numeric_redundancy_flag,categorical_redundancy_flag,any_redundancy_flag,leakage_or_availability_review_flag,drop_review_flag,core_keep_flag,final_multivariate_action
+OverallQual,int64,0,0.0,10,quality_condition,0.8098,strong,0,1,1,0,0,1,core keep
+Neighborhood,object,0,0.0,25,location_zoning,0.7386,strong,0,1,1,0,0,1,core keep
+GrLivArea,int64,0,0.0,861,area_size,0.7313,strong,1,0,1,0,0,1,core keep
+ExterQual,object,0,0.0,4,"quality_condition, exterior_material",0.6909,strong,0,1,1,0,0,1,core keep
+GarageCars,int64,0,0.0,5,garage,0.6907,strong,1,0,1,0,0,1,core keep
+BsmtQual,object,37,2.53,4,"quality_condition, basement",0.6819,strong,0,0,0,0,0,1,core keep
+KitchenQual,object,0,0.0,4,quality_condition,0.6757,strong,0,0,0,0,0,1,core keep
+GarageArea,int64,0,0.0,441,garage,0.6494,strong,1,0,1,0,0,1,core keep
+FullBath,int64,0,0.0,4,bath_room_count,0.636,strong,0,0,0,0,0,1,core keep
+TotalBsmtSF,int64,0,0.0,721,"area_size, basement",0.6027,strong,1,0,1,0,0,1,core keep
+1stFlrSF,int64,0,0.0,753,area_size,0.5754,moderate,1,0,1,0,0,1,core keep
+GarageFinish,object,81,5.55,3,garage,0.5531,moderate,0,1,1,0,0,1,core keep
+YearBuilt,int64,0,0.0,112,time_age,0.6527,strong,0,0,0,0,0,0,keep for now / prefer engineered age feature
+YearRemodAdd,int64,0,0.0,61,time_age,0.5712,moderate,0,0,0,0,0,0,keep for now / prefer engineered age feature
+GarageYrBlt,float64,81,5.55,97,"garage, time_age",0.5633,moderate,0,0,0,0,0,0,keep for now / prefer engineered age feature
+FireplaceQu,object,690,47.26,5,"quality_condition, luxury_sparse",0.5422,moderate,0,0,0,0,0,0,keep
+TotRmsAbvGrd,int64,0,0.0,12,bath_room_count,0.5326,moderate,1,0,1,0,0,0,keep but redundancy review
+Fireplaces,int64,0,0.0,4,luxury_sparse,0.5192,moderate,0,0,0,0,0,0,keep
+Foundation,object,0,0.0,6,building_structure,0.5063,moderate,0,0,0,0,0,0,keep
+GarageType,object,81,5.55,6,garage,0.4992,moderate,0,1,1,0,0,0,keep but redundancy review
+OpenPorchSF,int64,0,0.0,202,outdoor_porch,0.4776,moderate,0,0,0,0,0,0,keep
+BsmtFinType1,object,37,2.53,6,basement,0.4591,moderate,0,0,0,0,0,0,keep
+LotArea,int64,0,0.0,1073,area_size,0.4565,moderate,0,0,0,0,0,0,keep
+HeatingQC,object,0,0.0,5,quality_condition,0.4422,moderate,0,0,0,0,0,0,keep
+MasVnrType,object,872,59.73,3,exterior_material,0.4281,moderate,0,0,0,0,0,0,keep
+MasVnrArea,float64,8,0.55,327,"area_size, exterior_material",0.4159,moderate,0,0,0,0,0,0,keep
+Exterior2nd,object,0,0.0,16,exterior_material,0.3922,weak,0,1,1,0,0,0,redundant / validate before keeping
+Exterior1st,object,0,0.0,15,exterior_material,0.3909,weak,0,1,1,0,0,0,redundant / validate before keeping
+BsmtExposure,object,38,2.6,4,basement,0.3867,weak,0,0,0,0,0,0,keep for model validation
+LotFrontage,float64,259,17.74,110,area_size,0.3756,weak,0,0,0,0,0,0,keep for model validation
+SaleType,object,0,0.0,9,sale_transaction,0.3705,weak,0,0,0,1,0,0,keep but leakage / prediction-time availability review
+SaleCondition,object,0,0.0,6,sale_transaction,0.3681,weak,0,0,0,1,0,0,keep but leakage / prediction-time availability review
+WoodDeckSF,int64,0,0.0,274,outdoor_porch,0.3538,weak,0,0,0,0,0,0,keep for model validation
+HalfBath,int64,0,0.0,3,bath_room_count,0.343,weak,0,0,0,0,0,0,keep for model validation
+MSZoning,object,0,0.0,5,location_zoning,0.328,weak,0,1,1,0,0,0,redundant / validate before keeping
+BsmtFinSF1,int64,0,0.0,637,basement,0.3019,weak,0,0,0,0,0,0,keep for model validation
+HouseStyle,object,0,0.0,8,building_structure,0.2938,weak,0,1,1,0,0,0,redundant / validate before keeping
+2ndFlrSF,int64,0,0.0,417,area_size,0.2936,weak,0,0,0,0,0,0,keep for model validation
+GarageQual,object,81,5.55,5,"quality_condition, garage",0.2853,weak,0,1,1,0,0,0,redundant / validate before keeping
+GarageCond,object,81,5.55,5,"quality_condition, garage",0.2852,weak,0,1,1,0,0,0,redundant / validate before keeping
+CentralAir,object,0,0.0,2,utilities_access,0.2513,weak,0,0,0,0,0,0,keep for model validation
+Electrical,object,1,0.07,5,utilities_access,0.2443,weak,0,0,0,0,0,0,keep for model validation
+RoofStyle,object,0,0.0,6,building_structure,0.2402,weak,0,0,0,0,0,0,keep for model validation
+BedroomAbvGr,int64,0,0.0,8,bath_room_count,0.2349,weak,0,0,0,0,0,0,keep for model validation
+PavedDrive,object,0,0.0,3,utilities_access,0.2335,weak,0,0,0,0,0,0,keep for model validation
+BsmtCond,object,37,2.53,4,"quality_condition, basement",0.2267,weak,0,0,0,0,0,0,keep for model validation
+BsmtFullBath,int64,0,0.0,4,"basement, bath_room_count",0.2251,weak,0,0,0,0,0,0,keep for model validation
+EnclosedPorch,int64,0,0.0,120,outdoor_porch,0.2184,weak,0,0,0,0,1,0,keep but review due to sparsity or dominance
+Fence,object,1179,80.75,4,outdoor_porch,0.1887,very weak,0,0,0,0,1,0,low-priority drop review
+BldgType,object,0,0.0,5,building_structure,0.1858,very weak,0,1,1,0,0,0,redundant / validate before keeping
+BsmtUnfSF,int64,0,0.0,780,basement,0.1852,very weak,0,0,0,0,0,0,low-priority model validation
+Condition1,object,0,0.0,9,location_zoning,0.1806,very weak,0,0,0,0,0,0,low-priority model validation
+RoofMatl,object,0,0.0,8,building_structure,0.1772,very weak,0,0,0,0,1,0,low-priority drop review
+BsmtFinType2,object,38,2.6,6,basement,0.1741,very weak,0,0,0,0,0,0,low-priority model validation
+KitchenAbvGr,int64,0,0.0,4,bath_room_count,0.1648,very weak,0,0,0,0,1,0,low-priority drop review
+LandContour,object,0,0.0,4,location_zoning,0.1606,very weak,0,0,0,0,0,0,low-priority model validation
+ExterCond,object,0,0.0,5,"quality_condition, exterior_material",0.1537,very weak,0,0,0,0,0,0,low-priority model validation
+PoolQC,object,1453,99.52,3,"quality_condition, luxury_sparse",0.1456,very weak,0,0,0,0,1,0,low-priority drop review
+LotConfig,object,0,0.0,5,location_zoning,0.145,very weak,0,0,0,0,0,0,low-priority model validation
+Alley,object,1369,93.77,2,utilities_access,0.1429,very weak,0,0,0,0,1,0,low-priority drop review
+OverallCond,int64,0,0.0,9,quality_condition,0.1293,very weak,0,0,0,0,0,0,low-priority model validation
+Functional,object,0,0.0,7,utilities_access,0.1284,very weak,0,0,0,0,0,0,low-priority model validation
+Heating,object,0,0.0,6,utilities_access,0.1202,very weak,0,0,0,0,0,0,low-priority model validation
+ScreenPorch,int64,0,0.0,76,outdoor_porch,0.1001,very weak,0,0,0,0,1,0,low-priority drop review
+Condition2,object,0,0.0,8,location_zoning,0.0995,very weak,0,0,0,0,1,0,low-priority drop review
+MiscFeature,object,1406,96.3,4,luxury_sparse,0.0841,very weak,0,0,0,0,1,0,low-priority drop review
+MoSold,int64,0,0.0,12,time_age,0.0694,very weak,0,0,0,0,0,0,low-priority model validation
+LowQualFinSF,int64,0,0.0,24,area_size,0.0677,very weak,0,0,0,0,1,0,low-priority drop review
+3SsnPorch,int64,0,0.0,20,outdoor_porch,0.0654,very weak,0,0,0,0,1,0,low-priority drop review
+MiscVal,int64,0,0.0,21,luxury_sparse,0.0627,very weak,0,0,0,0,1,0,low-priority drop review
+PoolArea,int64,0,0.0,8,luxury_sparse,0.0585,very weak,0,0,0,0,1,0,low-priority drop review
+Street,object,0,0.0,2,utilities_access,0.041,very weak,0,0,0,0,1,0,low-priority drop review
+BsmtFinSF2,int64,0,0.0,144,basement,0.0388,very weak,0,0,0,0,0,0,low-priority model validation
+YrSold,int64,0,0.0,5,time_age,0.0299,very weak,0,0,0,0,0,0,keep for now / prefer engineered age feature
+Utilities,object,0,0.0,2,utilities_access,0.0143,very weak,0,0,0,0,1,0,low-priority drop review
+BsmtHalfBath,int64,0,0.0,3,"basement, bath_room_count",0.0122,very weak,0,0,0,0,0,0,low-priority model validation
+MSSubClass,int64,0,0.0,15,building_structure,0.0072,very weak,0,1,1,0,0,0,keep as categorical
+Id,int64,0,0.0,1460,unassigned,0.0,unknown,0,0,0,0,1,0,drop from modeling
+LotShape,object,0,0.0,4,unassigned,0.0,unknown,0,0,0,0,0,0,low-priority model validation
+LandSlope,object,0,0.0,3,unassigned,0.0,unknown,0,0,0,0,0,0,low-priority model validation

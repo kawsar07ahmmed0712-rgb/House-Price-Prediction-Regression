@@ -1,0 +1,8 @@
+section,main_finding,final_decision
+numeric_multicollinearity,numeric redundancy is manageable,keep correlated numeric features for now; use combined features and CV
+numeric_interaction,quality × size interactions are strongest,"create OverallQual_x_TotalSF, OverallQual_x_GrLivArea, OverallQual_x_TotalBath"
+categorical_association,categorical groups are associated but logically valid,"keep groups, rare-group nominal features, create component indicators"
+categorical_numeric_interaction,location/building-class × area interactions show strong signal,create safe ordinal × numeric interactions first; review high-cardinality interactions
+component_review,"quality, area, location, garage, basement are strongest components",make final FE component-driven
+leakage_review,SaleType and SaleCondition need availability review,keep for Kaggle-style task; review for real deployment
+drop_review,some sparse/dominated features are weak but may still help,do not drop until model validation

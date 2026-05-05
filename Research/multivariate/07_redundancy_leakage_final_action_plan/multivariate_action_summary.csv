@@ -1,0 +1,13 @@
+final_multivariate_action,feature_count
+low-priority drop review,14
+low-priority model validation,14
+keep for model validation,13
+core keep,12
+keep,9
+redundant / validate before keeping,7
+keep for now / prefer engineered age feature,4
+keep but redundancy review,2
+keep but leakage / prediction-time availability review,2
+keep but review due to sparsity or dominance,1
+keep as categorical,1
+drop from modeling,1

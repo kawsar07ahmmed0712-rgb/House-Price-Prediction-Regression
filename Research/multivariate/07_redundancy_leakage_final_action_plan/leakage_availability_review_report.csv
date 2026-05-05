@@ -1,0 +1,3 @@
+feature_name,dtype,missing_count,missing_percentage,unique_count,component_groups,component_signal_score,signal_strength,numeric_redundancy_flag,categorical_redundancy_flag,any_redundancy_flag,leakage_or_availability_review_flag,drop_review_flag,core_keep_flag,final_multivariate_action,review_reason
+SaleType,object,0,0.0,9,sale_transaction,0.3705,weak,0,0,0,1,0,0,keep but leakage / prediction-time availability review,sale transaction variable; available in Kaggle test but review for real deployment
+SaleCondition,object,0,0.0,6,sale_transaction,0.3681,weak,0,0,0,1,0,0,keep but leakage / prediction-time availability review,sale transaction condition; available in Kaggle test but review for real deployment

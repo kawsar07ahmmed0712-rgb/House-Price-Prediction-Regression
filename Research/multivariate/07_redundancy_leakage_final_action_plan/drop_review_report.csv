@@ -1,0 +1,17 @@
+feature_name,dtype,missing_count,missing_percentage,unique_count,component_groups,component_signal_score,signal_strength,numeric_redundancy_flag,categorical_redundancy_flag,any_redundancy_flag,leakage_or_availability_review_flag,drop_review_flag,core_keep_flag,final_multivariate_action
+EnclosedPorch,int64,0,0.0,120,outdoor_porch,0.2184,weak,0,0,0,0,1,0,keep but review due to sparsity or dominance
+Fence,object,1179,80.75,4,outdoor_porch,0.1887,very weak,0,0,0,0,1,0,low-priority drop review
+RoofMatl,object,0,0.0,8,building_structure,0.1772,very weak,0,0,0,0,1,0,low-priority drop review
+KitchenAbvGr,int64,0,0.0,4,bath_room_count,0.1648,very weak,0,0,0,0,1,0,low-priority drop review
+PoolQC,object,1453,99.52,3,"quality_condition, luxury_sparse",0.1456,very weak,0,0,0,0,1,0,low-priority drop review
+Alley,object,1369,93.77,2,utilities_access,0.1429,very weak,0,0,0,0,1,0,low-priority drop review
+ScreenPorch,int64,0,0.0,76,outdoor_porch,0.1001,very weak,0,0,0,0,1,0,low-priority drop review
+Condition2,object,0,0.0,8,location_zoning,0.0995,very weak,0,0,0,0,1,0,low-priority drop review
+MiscFeature,object,1406,96.3,4,luxury_sparse,0.0841,very weak,0,0,0,0,1,0,low-priority drop review
+LowQualFinSF,int64,0,0.0,24,area_size,0.0677,very weak,0,0,0,0,1,0,low-priority drop review
+3SsnPorch,int64,0,0.0,20,outdoor_porch,0.0654,very weak,0,0,0,0,1,0,low-priority drop review
+MiscVal,int64,0,0.0,21,luxury_sparse,0.0627,very weak,0,0,0,0,1,0,low-priority drop review
+PoolArea,int64,0,0.0,8,luxury_sparse,0.0585,very weak,0,0,0,0,1,0,low-priority drop review
+Street,object,0,0.0,2,utilities_access,0.041,very weak,0,0,0,0,1,0,low-priority drop review
+Utilities,object,0,0.0,2,utilities_access,0.0143,very weak,0,0,0,0,1,0,low-priority drop review
+Id,int64,0,0.0,1460,unassigned,0.0,unknown,0,0,0,0,1,0,drop from modeling
