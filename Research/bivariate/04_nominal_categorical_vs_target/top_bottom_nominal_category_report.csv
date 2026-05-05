@@ -1,0 +1,13 @@
+feature_name,highest_category,highest_count,highest_median_saleprice,lowest_category,lowest_count,lowest_median_saleprice,median_gap
+Neighborhood,NridgHt,77,315000.0,MeadowV,17,88000.0,227000.0
+Foundation,PConc,647,205000.0,Slab,24,104150.0,100850.0
+GarageType,BuiltIn,88,227500.0,Missing,81,100000.0,127500.0
+MSSubClass,60,299,215200.0,180,10,88500.0,126700.0
+MasVnrType,Stone,128,246839.0,BrkCmn,15,139000.0,107839.0
+Exterior2nd,CmentBd,60,238750.0,AsbShng,20,111000.0,127750.0
+Exterior1st,CemntBd,61,236500.0,AsbShng,20,108000.0,128500.0
+SaleType,New,122,247453.0,COD,43,139000.0,108453.0
+SaleCondition,Partial,125,244600.0,Abnorml,101,130000.0,114600.0
+MSZoning,FV,65,205950.0,C (all),10,74700.0,131250.0
+HouseStyle,2Story,445,190000.0,1.5Unf,14,111250.0,78750.0
+CentralAir,Y,1365,168000.0,N,95,98000.0,70000.0

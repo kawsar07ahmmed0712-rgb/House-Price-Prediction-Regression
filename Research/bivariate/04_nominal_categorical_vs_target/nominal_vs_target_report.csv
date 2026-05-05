@@ -1,0 +1,26 @@
+feature_name,category_count,eta_squared,signal_strength,median_gap,median_gap_percentage,highest_price_category,highest_category_median_saleprice,lowest_price_category,lowest_category_median_saleprice,top_category,top_category_count,top_category_percentage,rare_category_count,rare_row_count,rare_row_percentage,action_hint
+Neighborhood,25,0.5456,strong,227000.0,139.26,NridgHt,315000.0,MeadowV,88000.0,NAmes,225,15.41,2,11,0.75,keep / important nominal signal
+Foundation,6,0.2564,strong,100850.0,61.87,PConc,205000.0,Slab,104150.0,PConc,647,44.32,2,9,0.62,keep / important nominal signal
+GarageType,7,0.2492,strong,127500.0,78.22,BuiltIn,227500.0,Missing,100000.0,Attchd,870,59.59,2,15,1.03,keep / important nominal signal
+MSSubClass,15,0.2463,strong,126700.0,77.73,60,215200.0,180,88500.0,20,536,36.71,1,4,0.27,keep / important nominal signal
+MasVnrType,4,0.1833,moderate,107839.0,66.16,Stone,246839.0,BrkCmn,139000.0,Missing,872,59.73,0,0,0.0,keep / important nominal signal
+Exterior2nd,16,0.1538,moderate,127750.0,78.37,CmentBd,238750.0,AsbShng,111000.0,VinylSd,504,34.52,5,17,1.16,keep / important nominal signal
+Exterior1st,15,0.1528,moderate,128500.0,78.83,CemntBd,236500.0,AsbShng,108000.0,VinylSd,515,35.27,5,7,0.48,keep / important nominal signal
+SaleType,9,0.1373,moderate,108453.0,66.54,New,247453.0,COD,139000.0,WD,1267,86.78,6,28,1.92,keep / important nominal signal
+SaleCondition,6,0.1355,moderate,114600.0,70.31,Partial,244600.0,Abnorml,130000.0,Normal,1198,82.05,1,4,0.27,keep / important nominal signal
+MSZoning,5,0.1076,moderate,131250.0,80.52,FV,205950.0,C (all),74700.0,RL,1151,78.84,0,0,0.0,keep / important nominal signal
+HouseStyle,8,0.0863,weak,78750.0,48.31,2Story,190000.0,1.5Unf,111250.0,1Story,726,49.73,1,8,0.55,keep but review rare target stability
+CentralAir,2,0.0632,weak,70000.0,42.94,Y,168000.0,N,98000.0,Y,1365,93.49,0,0,0.0,keep / weak standalone signal
+Electrical,6,0.0597,weak,55000.0,33.74,SBrkr,170000.0,FuseF,115000.0,SBrkr,1334,91.37,3,5,0.34,keep but review rare target stability
+RoofStyle,6,0.0577,weak,46000.0,28.22,Flat,185000.0,Gambrel,139000.0,Gable,1141,78.15,2,9,0.62,keep but review rare target stability
+BldgType,5,0.0345,weak,44700.0,27.42,TwnhsE,172200.0,2fmCon,127500.0,1Fam,1220,83.56,0,0,0.0,keep / weak standalone signal
+Condition1,9,0.0326,weak,80450.0,49.36,PosN,200000.0,Artery,119550.0,Norm,1260,86.3,3,15,1.03,keep but review rare target stability
+RoofMatl,8,0.0314,weak,5000.0,3.07,Tar&Grv,167000.0,CompShg,162000.0,CompShg,1434,98.22,6,15,1.03,keep but review rare target stability
+LandContour,4,0.0258,very weak,82850.0,50.83,HLS,222250.0,Bnk,139400.0,Lvl,1311,89.79,0,0,0.0,keep / weak standalone signal
+LotConfig,5,0.021,very weak,39564.5,24.27,CulDSac,199262.0,Inside,159697.5,Inside,1052,72.05,1,4,0.27,keep but review rare target stability
+Alley,3,0.0204,very weak,53000.0,32.52,Pave,172500.0,Grvl,119500.0,Missing,1369,93.77,0,0,0.0,keep / weak standalone signal
+Heating,6,0.0144,very weak,29550.0,18.13,GasA,164500.0,GasW,134950.0,GasA,1428,97.81,4,14,0.96,keep but review rare target stability
+Condition2,8,0.0099,very weak,,,,,,,Norm,1445,98.97,7,15,1.03,keep but review rare target stability
+MiscFeature,5,0.0071,very weak,20250.0,12.42,Missing,164250.0,Shed,144000.0,Missing,1406,96.3,3,5,0.34,keep but review rare target stability
+Street,2,0.0017,very weak,,,,,,,Pave,1454,99.59,1,6,0.41,keep but review rare target stability
+Utilities,2,0.0002,very weak,,,,,,,AllPub,1459,99.93,1,1,0.07,keep but review rare target stability
