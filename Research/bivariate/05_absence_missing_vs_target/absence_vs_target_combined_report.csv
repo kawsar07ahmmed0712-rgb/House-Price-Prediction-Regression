@@ -1,0 +1,31 @@
+feature_name,absent_count,present_count,absent_median_saleprice,present_median_saleprice,median_gap_present_minus_absent,median_gap_percentage,mean_gap_percentage,signal_strength,absence_feature_type
+PoolQC,1453,7,162900.0,235000.0,72100.0,44.23,59.55,strong,categorical_absence
+PoolArea,1453,7,162900.0,235000.0,72100.0,44.23,59.55,strong,numeric_zero_absence
+GarageQual,81,1379,100000.0,167500.0,67500.0,41.41,45.41,strong,categorical_absence
+GarageFinish,81,1379,100000.0,167500.0,67500.0,41.41,45.41,strong,categorical_absence
+GarageCond,81,1379,100000.0,167500.0,67500.0,41.41,45.41,strong,categorical_absence
+GarageType,81,1379,100000.0,167500.0,67500.0,41.41,45.41,strong,categorical_absence
+GarageArea,81,1379,100000.0,167500.0,67500.0,41.41,45.41,strong,numeric_zero_absence
+BsmtCond,37,1423,101800.0,165000.0,63200.0,38.77,42.68,moderate,categorical_absence
+BsmtQual,37,1423,101800.0,165000.0,63200.0,38.77,42.68,moderate,categorical_absence
+BsmtFinType1,37,1423,101800.0,165000.0,63200.0,38.77,42.68,moderate,categorical_absence
+TotalBsmtSF,37,1423,101800.0,165000.0,63200.0,38.77,42.68,moderate,numeric_zero_absence
+BsmtExposure,38,1422,104025.0,165000.0,60975.0,37.41,41.42,moderate,categorical_absence
+BsmtFinType2,38,1422,104025.0,165000.0,60975.0,37.41,40.05,moderate,categorical_absence
+FireplaceQu,690,770,135000.0,191000.0,56000.0,34.36,41.49,moderate,categorical_absence
+Fireplaces,690,770,135000.0,191000.0,56000.0,34.36,41.49,moderate,numeric_zero_absence
+OpenPorchSF,656,804,136700.0,192000.0,55300.0,33.93,36.44,moderate,numeric_zero_absence
+MasVnrType,872,588,143125.0,192250.0,49125.0,30.14,32.89,moderate,categorical_absence
+MasVnrArea,869,591,143250.0,192000.0,48750.0,29.91,32.26,moderate,numeric_zero_absence
+WoodDeckSF,761,699,144152.0,187000.0,42848.0,26.29,26.16,moderate,numeric_zero_absence
+EnclosedPorch,1252,208,170000.0,133350.0,-36650.0,-22.48,-23.03,moderate,numeric_zero_absence
+LowQualFinSF,1434,26,163945.0,131500.0,-32445.0,-19.9,-15.91,weak,numeric_zero_absence
+Fence,1179,281,173000.0,141500.0,-31500.0,-19.33,-19.17,weak,categorical_absence
+2ndFlrSF,829,631,150000.0,177000.0,27000.0,16.56,12.2,weak,numeric_zero_absence
+3SsnPorch,1436,24,162000.0,187500.0,25500.0,15.64,15.88,weak,numeric_zero_absence
+Alley,1369,91,165000.0,140000.0,-25000.0,-15.34,-22.44,weak,categorical_absence
+MiscFeature,1406,54,164250.0,146000.0,-18250.0,-11.2,-16.82,weak,categorical_absence
+MiscVal,1408,52,164000.0,148000.0,-16000.0,-9.82,-16.19,very weak,numeric_zero_absence
+ScreenPorch,1344,116,160000.0,175000.0,15000.0,9.2,14.14,very weak,numeric_zero_absence
+BsmtFinSF1,467,993,153900.0,165500.0,11600.0,7.12,12.52,very weak,numeric_zero_absence
+BsmtFinSF2,1293,167,165000.0,154000.0,-11000.0,-6.75,-7.3,very weak,numeric_zero_absence

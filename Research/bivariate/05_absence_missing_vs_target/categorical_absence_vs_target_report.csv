@@ -1,0 +1,16 @@
+feature_name,absent_count,present_count,absent_median_saleprice,present_median_saleprice,median_gap_present_minus_absent,median_gap_percentage,mean_gap_percentage,signal_strength
+PoolQC,1453,7,162900.0,235000.0,72100.0,44.23,59.55,strong
+GarageType,81,1379,100000.0,167500.0,67500.0,41.41,45.41,strong
+GarageQual,81,1379,100000.0,167500.0,67500.0,41.41,45.41,strong
+GarageFinish,81,1379,100000.0,167500.0,67500.0,41.41,45.41,strong
+GarageCond,81,1379,100000.0,167500.0,67500.0,41.41,45.41,strong
+BsmtFinType1,37,1423,101800.0,165000.0,63200.0,38.77,42.68,moderate
+BsmtQual,37,1423,101800.0,165000.0,63200.0,38.77,42.68,moderate
+BsmtCond,37,1423,101800.0,165000.0,63200.0,38.77,42.68,moderate
+BsmtExposure,38,1422,104025.0,165000.0,60975.0,37.41,41.42,moderate
+BsmtFinType2,38,1422,104025.0,165000.0,60975.0,37.41,40.05,moderate
+FireplaceQu,690,770,135000.0,191000.0,56000.0,34.36,41.49,moderate
+MasVnrType,872,588,143125.0,192250.0,49125.0,30.14,32.89,moderate
+Fence,1179,281,173000.0,141500.0,-31500.0,-19.33,-19.17,weak
+Alley,1369,91,165000.0,140000.0,-25000.0,-15.34,-22.44,weak
+MiscFeature,1406,54,164250.0,146000.0,-18250.0,-11.2,-16.82,weak
