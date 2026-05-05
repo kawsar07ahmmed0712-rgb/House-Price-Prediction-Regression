@@ -1,0 +1,6 @@
+feature_name,group_count,eta_squared,signal_strength,highest_group,highest_group_median_saleprice,lowest_group,lowest_group_median_saleprice,median_gap,median_gap_percentage
+IsNewHouse,2,0.188,moderate,1,225500.0,0,148000.0,77500.0,47.55
+HasGarageYrBlt,2,0.0561,weak,1,167500.0,0,100000.0,67500.0,41.41
+SaleQuarter,4,0.0053,very weak,Q3,171000.0,Q2,156750.0,14250.0,8.74
+SaleSeason,4,0.0035,very weak,Winter,170000.0,Spring,155000.0,15000.0,9.2
+IsRemodeled,2,0.0005,very weak,0,170000.0,1,155000.0,15000.0,9.2

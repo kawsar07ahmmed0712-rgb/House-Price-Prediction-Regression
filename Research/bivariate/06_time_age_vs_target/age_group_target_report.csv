@@ -1,0 +1,15 @@
+age_group,count,mean,median,feature_name
+0-5 years,310,247235.03,225500.0,HouseAgeGroup
+6-20 years,254,226733.95,212500.0,HouseAgeGroup
+21-50 years,457,155951.63,147000.0,HouseAgeGroup
+51-100 years,411,132249.3,127000.0,HouseAgeGroup
+100+ years,28,153118.04,123250.0,HouseAgeGroup
+0-5 years,425,225108.49,205950.0,RemodAgeGroup
+6-20 years,392,203731.98,187500.0,RemodAgeGroup
+21-50 years,398,148606.85,143000.0,RemodAgeGroup
+50+ years,244,120002.56,118500.0,RemodAgeGroup
+0-5 years,319,244482.87,224500.0,GarageAgeGroup
+6-20 years,306,214545.02,194750.0,GarageAgeGroup
+21-50 years,477,154225.31,145000.0,GarageAgeGroup
+51-100 years,275,139276.59,132000.0,GarageAgeGroup
+100+ years,2,134450.0,134450.0,GarageAgeGroup

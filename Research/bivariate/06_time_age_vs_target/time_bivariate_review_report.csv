@@ -1,0 +1,9 @@
+feature_name,non_missing_count,missing_count,min_value,median_value,max_value,pearson_corr,spearman_corr,abs_spearman_corr,relationship_direction,signal_strength,feature_type,group_count,eta_squared,highest_group,highest_group_median_saleprice,lowest_group,lowest_group_median_saleprice,median_gap,median_gap_percentage
+HouseAge,1460.0,0.0,0.0,35.0,136.0,-0.5234,-0.6501,0.6501,negative,strong,continuous_age,,,,,,,,
+RemodAge,1459.0,1.0,0.0,14.0,60.0,-0.5093,-0.5766,0.5766,negative,moderate,continuous_age,,,,,,,,
+GarageAge,1379.0,81.0,0.0,28.0,107.0,-0.4871,-0.592,0.592,negative,moderate,continuous_age,,,,,,,,
+IsNewHouse,,,,,,,,,,moderate,time_group,2.0,0.188,1,225500.0,0,148000.0,77500.0,47.55
+HasGarageYrBlt,,,,,,,,,,weak,time_group,2.0,0.0561,1,167500.0,0,100000.0,67500.0,41.41
+SaleQuarter,,,,,,,,,,very weak,time_group,4.0,0.0053,Q3,171000.0,Q2,156750.0,14250.0,8.74
+SaleSeason,,,,,,,,,,very weak,time_group,4.0,0.0035,Winter,170000.0,Spring,155000.0,15000.0,9.2
+IsRemodeled,,,,,,,,,,very weak,time_group,2.0,0.0005,0,170000.0,1,155000.0,15000.0,9.2
