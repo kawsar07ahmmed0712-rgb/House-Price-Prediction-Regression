@@ -1,0 +1,13 @@
+feature_name,missing_count,unique_count,pearson_corr,spearman_corr,pearson_log_target_corr,spearman_log_target_corr,abs_spearman_corr,relationship_direction,signal_strength,relationship_pattern
+GrLivArea,0,861,0.7086,0.7313,0.7009,0.7313,0.7313,positive,strong,mostly monotonic/linear-like
+GarageCars,0,5,0.6404,0.6907,0.6806,0.6907,0.6907,positive,strong,mostly monotonic/linear-like
+GarageArea,0,441,0.6234,0.6494,0.6509,0.6494,0.6494,positive,strong,mostly monotonic/linear-like
+FullBath,0,4,0.5607,0.636,0.5948,0.636,0.636,positive,strong,mostly monotonic/linear-like
+TotalBsmtSF,0,721,0.6136,0.6027,0.6121,0.6027,0.6027,positive,strong,mostly monotonic/linear-like
+1stFlrSF,0,753,0.6059,0.5754,0.597,0.5754,0.5754,positive,moderate,mostly monotonic/linear-like
+TotRmsAbvGrd,0,12,0.5337,0.5326,0.5344,0.5326,0.5326,positive,moderate,mostly monotonic/linear-like
+Fireplaces,0,4,0.4669,0.5192,0.4894,0.5192,0.5192,positive,moderate,mostly monotonic/linear-like
+OpenPorchSF,0,202,0.3159,0.4776,0.3211,0.4776,0.4776,positive,moderate,possible non-linear / outlier influence
+LotArea,0,1073,0.2638,0.4565,0.2573,0.4565,0.4565,positive,moderate,possible non-linear / outlier influence
+MasVnrArea,8,327,0.4775,0.4213,0.4308,0.4213,0.4213,positive,moderate,mostly monotonic/linear-like
+LotFrontage,259,110,0.3518,0.4091,0.3559,0.4091,0.4091,positive,moderate,mostly monotonic/linear-like

@@ -1,0 +1,29 @@
+feature_name,missing_count,unique_count,pearson_corr,spearman_corr,pearson_log_target_corr,spearman_log_target_corr,abs_spearman_corr,relationship_direction,signal_strength,relationship_pattern
+GrLivArea,0,861,0.7086,0.7313,0.7009,0.7313,0.7313,positive,strong,mostly monotonic/linear-like
+GarageCars,0,5,0.6404,0.6907,0.6806,0.6907,0.6907,positive,strong,mostly monotonic/linear-like
+GarageArea,0,441,0.6234,0.6494,0.6509,0.6494,0.6494,positive,strong,mostly monotonic/linear-like
+FullBath,0,4,0.5607,0.636,0.5948,0.636,0.636,positive,strong,mostly monotonic/linear-like
+TotalBsmtSF,0,721,0.6136,0.6027,0.6121,0.6027,0.6027,positive,strong,mostly monotonic/linear-like
+1stFlrSF,0,753,0.6059,0.5754,0.597,0.5754,0.5754,positive,moderate,mostly monotonic/linear-like
+TotRmsAbvGrd,0,12,0.5337,0.5326,0.5344,0.5326,0.5326,positive,moderate,mostly monotonic/linear-like
+Fireplaces,0,4,0.4669,0.5192,0.4894,0.5192,0.5192,positive,moderate,mostly monotonic/linear-like
+OpenPorchSF,0,202,0.3159,0.4776,0.3211,0.4776,0.4776,positive,moderate,possible non-linear / outlier influence
+LotArea,0,1073,0.2638,0.4565,0.2573,0.4565,0.4565,positive,moderate,possible non-linear / outlier influence
+MasVnrArea,8,327,0.4775,0.4213,0.4308,0.4213,0.4213,positive,moderate,mostly monotonic/linear-like
+LotFrontage,259,110,0.3518,0.4091,0.3559,0.4091,0.4091,positive,moderate,mostly monotonic/linear-like
+WoodDeckSF,0,274,0.3244,0.3538,0.3341,0.3538,0.3538,positive,weak,mostly monotonic/linear-like
+HalfBath,0,3,0.2841,0.343,0.314,0.343,0.343,positive,weak,mostly monotonic/linear-like
+BsmtFinSF1,0,637,0.3864,0.3019,0.372,0.3019,0.3019,positive,weak,mostly monotonic/linear-like
+2ndFlrSF,0,417,0.3193,0.2936,0.3193,0.2936,0.2936,positive,weak,mostly monotonic/linear-like
+BedroomAbvGr,0,8,0.1682,0.2349,0.209,0.2349,0.2349,positive,weak,mostly monotonic/linear-like
+BsmtFullBath,0,4,0.2271,0.2251,0.2362,0.2251,0.2251,positive,weak,mostly monotonic/linear-like
+EnclosedPorch,0,120,-0.1286,-0.2184,-0.1491,-0.2184,0.2184,negative,weak,mostly monotonic/linear-like
+BsmtUnfSF,0,780,0.2145,0.1852,0.222,0.1852,0.1852,positive,very weak,mostly monotonic/linear-like
+KitchenAbvGr,0,4,-0.1359,-0.1648,-0.1475,-0.1648,0.1648,negative,very weak,mostly monotonic/linear-like
+ScreenPorch,0,76,0.1114,0.1001,0.1212,0.1001,0.1001,positive,very weak,mostly monotonic/linear-like
+LowQualFinSF,0,24,-0.0256,-0.0677,-0.038,-0.0677,0.0677,negative,very weak,mostly monotonic/linear-like
+3SsnPorch,0,20,0.0446,0.0654,0.0549,0.0654,0.0654,positive,very weak,mostly monotonic/linear-like
+MiscVal,0,21,-0.0212,-0.0627,-0.02,-0.0627,0.0627,negative,very weak,mostly monotonic/linear-like
+PoolArea,0,8,0.0924,0.0585,0.0698,0.0585,0.0585,positive,very weak,mostly monotonic/linear-like
+BsmtFinSF2,0,144,-0.0114,-0.0388,0.0048,-0.0388,0.0388,negative,very weak,mostly monotonic/linear-like
+BsmtHalfBath,0,3,-0.0168,-0.0122,-0.0051,-0.0122,0.0122,negative,very weak,mostly monotonic/linear-like
