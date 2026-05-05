@@ -1,0 +1,15 @@
+feature_name,q1,q3,iqr,iqr_upper_bound,p95,p99,max_value,upper_tail_count,high_feature_low_price_count,low_target_threshold,upper_tail_median_saleprice,non_upper_tail_median_saleprice,upper_tail_price_gap,upper_tail_price_gap_percentage,spearman_corr_all,spearman_corr_without_upper_tail,corr_change_after_removing_upper_tail,outlier_status,action_hint
+PoolArea,0.0,0.0,0.0,0.0,0.0,0.0,738.0,1460,365,129975.0,163000.0,,,,0.0585,,,suspicious high-feature low-price,manual review / possible removal candidate
+MiscVal,0.0,0.0,0.0,0.0,0.0,700.0,15500.0,19,4,129975.0,160000.0,163000.0,-3000.0,-1.84,-0.0627,-0.0783,0.0156,suspicious high-feature low-price,manual review / possible removal candidate
+OpenPorchSF,0.0,68.0,68.0,170.0,175.05,285.82,547.0,15,4,129975.0,163000.0,163000.0,0.0,0.0,0.4776,0.4884,-0.0109,suspicious high-feature low-price,manual review / possible removal candidate
+EnclosedPorch,0.0,0.0,0.0,0.0,180.15,261.05,552.0,15,3,129975.0,175000.0,163000.0,12000.0,7.36,-0.2184,-0.2339,0.0155,suspicious high-feature low-price,manual review / possible removal candidate
+ScreenPorch,0.0,0.0,0.0,0.0,160.0,268.05,480.0,15,1,129975.0,190000.0,162900.0,27100.0,16.63,0.1001,0.0851,0.0149,suspicious high-feature low-price,manual review / possible removal candidate
+LotFrontage,59.0,80.0,21.0,111.5,107.0,141.0,313.0,13,1,129975.0,235000.0,158250.0,76750.0,47.09,0.4091,0.4038,0.0053,suspicious high-feature low-price,manual review / possible removal candidate
+GarageArea,334.5,576.0,241.5,938.25,850.1,1002.79,1418.0,15,1,129975.0,340000.0,162000.0,178000.0,109.2,0.6494,0.6461,0.0033,suspicious high-feature low-price,manual review / possible removal candidate
+WoodDeckSF,0.0,168.0,168.0,420.0,335.0,505.46,857.0,15,0,129975.0,228000.0,162500.0,65500.0,40.18,0.3538,0.3474,0.0064,upper tail supports higher price,keep / valid expensive property pattern
+LotArea,7553.5,11601.5,4048.0,17673.5,17401.15,37567.64,215245.0,15,0,129975.0,256000.0,162000.0,94000.0,57.67,0.4565,0.4465,0.01,upper tail supports higher price,keep / valid expensive property pattern
+2ndFlrSF,0.0,728.0,728.0,1820.0,1141.05,1418.92,2065.0,15,0,129975.0,320000.0,162000.0,158000.0,96.93,0.2936,0.2751,0.0185,upper tail supports higher price,keep / valid expensive property pattern
+MasVnrArea,0.0,166.0,166.0,415.0,456.0,791.92,1600.0,15,0,129975.0,336000.0,161750.0,174250.0,106.9,0.4213,0.4096,0.0117,upper tail supports higher price,keep / valid expensive property pattern
+TotalBsmtSF,795.75,1298.25,502.5,2052.0,1753.0,2155.05,6110.0,15,0,129975.0,386250.0,162000.0,224250.0,137.58,0.6027,0.5936,0.0091,upper tail supports higher price,keep / valid expensive property pattern
+1stFlrSF,882.0,1391.25,509.25,2155.12,1831.25,2219.46,4692.0,15,0,129975.0,386250.0,162000.0,224250.0,137.58,0.5754,0.5664,0.009,upper tail supports higher price,keep / valid expensive property pattern
+GrLivArea,1129.5,1776.75,647.25,2747.62,2466.1,3123.48,5642.0,15,0,129975.0,410000.0,162000.0,248000.0,152.15,0.7313,0.7258,0.0055,upper tail supports higher price,keep / valid expensive property pattern
