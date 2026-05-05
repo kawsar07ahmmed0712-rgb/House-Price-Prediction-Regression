@@ -1,0 +1,8 @@
+feature_group,feature_count,train_missing_total,test_missing_total
+onehot_categorical,251,0,0
+raw_or_other_numeric,35,0,0
+ordinal_score,19,0,0
+binary_indicator,16,0,0
+core_engineered_numeric,8,0,0
+interaction_feature,8,0,0
+component_score,6,0,0

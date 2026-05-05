@@ -1,0 +1,20 @@
+{
+    "dataset_name": "tree_based_final_dataset",
+    "train_shape": [
+        1458,
+        343
+    ],
+    "test_shape": [
+        1459,
+        343
+    ],
+    "feature_count": 343,
+    "target_used_for_training": "log1p(SalePrice)",
+    "scaling_required": false,
+    "encoding": "rare grouping + one-hot encoding",
+    "id_column_removed": true,
+    "missing_total_train": 0,
+    "missing_total_test": 0,
+    "object_columns_train": 0,
+    "object_columns_test": 0
+}

@@ -1,0 +1,10 @@
+check,value,expected,status
+train_row_count_matches_target,1458,1458,pass
+test_row_count_matches_test_ids,1459,1459,pass
+train_test_same_columns,True,True,pass
+train_missing_total,0,0,pass
+test_missing_total,0,0,pass
+train_object_column_count,0,0,pass
+test_object_column_count,0,0,pass
+train_infinite_total,0,0,pass
+test_infinite_total,0,0,pass
