@@ -1,0 +1,6 @@
+feature_group,features,expected_issue,possible_feature_engineering
+living_area,"GrLivArea, 1stFlrSF, 2ndFlrSF, TotalBsmtSF",area features may be correlated,create TotalSF and review redundant area features
+garage,"GarageCars, GarageArea, GarageAge",garage capacity and garage size may overlap,keep strongest signal or create garage score
+bathroom,"FullBath, HalfBath, BsmtFullBath, BsmtHalfBath",bath counts may overlap,create TotalBath
+porch_deck,"OpenPorchSF, EnclosedPorch, 3SsnPorch, ScreenPorch, WoodDeckSF",many sparse outdoor-area features,create TotalPorchSF and Has... indicators
+time_age,"YearBuilt, YearRemodAdd, GarageYrBlt, YrSold, HouseAge, RemodAge, GarageAge",raw years and age features can be redundant,prefer age features over raw year features

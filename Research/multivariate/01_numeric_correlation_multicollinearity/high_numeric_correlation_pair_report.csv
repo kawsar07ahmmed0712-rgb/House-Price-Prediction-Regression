@@ -1,0 +1,4 @@
+feature_1,feature_2,spearman_corr,abs_corr,correlation_direction,risk_level,action_hint
+GarageCars,GarageArea,0.8533,0.8533,positive,high,review one feature or combine
+TotalBsmtSF,1stFlrSF,0.8293,0.8293,positive,high,review one feature or combine
+GrLivArea,TotRmsAbvGrd,0.8279,0.8279,positive,high,review one feature or combine
