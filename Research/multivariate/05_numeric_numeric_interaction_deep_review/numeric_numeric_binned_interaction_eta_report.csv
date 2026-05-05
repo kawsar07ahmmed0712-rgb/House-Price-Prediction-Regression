@@ -1,0 +1,11 @@
+feature_1,feature_2,feature_pair,feature_1_eta,feature_2_eta,interaction_eta,best_single_eta,eta_gain
+GrLivArea,TotalBsmtSF,GrLivArea × TotalBsmtSF,0.4372,0.3666,0.6395,0.4372,0.2023
+OverallQual,TotalSF,OverallQual × TotalSF,0.6017,0.5612,0.7346,0.6017,0.1329
+TotalBath,TotRmsAbvGrd,TotalBath × TotRmsAbvGrd,0.3985,0.2837,0.5175,0.3985,0.1191
+OverallQual,GrLivArea,OverallQual × GrLivArea,0.6017,0.4372,0.7003,0.6017,0.0986
+OverallQual,TotalBath,OverallQual × TotalBath,0.6017,0.3985,0.6918,0.6017,0.0901
+LotArea,GrLivArea,LotArea × GrLivArea,0.21,0.4372,0.5152,0.4372,0.078
+OverallQual,GarageArea,OverallQual × GarageArea,0.6017,0.3813,0.6726,0.6017,0.0709
+RemodAge,OverallQual,RemodAge × OverallQual,0.2579,0.6017,0.6265,0.6017,0.0248
+HouseAge,OverallQual,HouseAge × OverallQual,0.3384,0.6017,0.625,0.6017,0.0232
+GarageCars,GarageArea,GarageCars × GarageArea,0.4912,0.3813,0.5035,0.4912,0.0122

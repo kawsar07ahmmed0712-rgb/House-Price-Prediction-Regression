@@ -1,0 +1,30 @@
+feature_name,feature_origin,spearman_corr,abs_spearman_corr,signal_strength
+OverallQual_x_TotalSF,new_interaction_or_ratio,0.8939,0.8939,strong
+OverallQual_x_GrLivArea,new_interaction_or_ratio,0.8529,0.8529,strong
+OverallQual_x_TotalBath,new_interaction_or_ratio,0.8395,0.8395,strong
+TotalSF,original_or_combined_base,0.8197,0.8197,strong
+OverallQual,original_or_combined_base,0.8098,0.8098,strong
+OverallQual_x_GarageArea,new_interaction_or_ratio,0.8004,0.8004,strong
+GrLivArea,original_or_combined_base,0.7313,0.7313,strong
+QualityAgeInteraction,new_interaction_or_ratio,0.7187,0.7187,strong
+TotalBath,original_or_combined_base,0.7037,0.7037,strong
+GarageCars,original_or_combined_base,0.6907,0.6907,strong
+HouseAge,original_or_combined_base,-0.6501,0.6501,strong
+GarageArea,original_or_combined_base,0.6494,0.6494,strong
+QualityRemodInteraction,new_interaction_or_ratio,0.6481,0.6481,strong
+TotalBsmtSF,original_or_combined_base,0.6027,0.6027,strong
+AreaPerRoom,new_interaction_or_ratio,0.5914,0.5914,moderate
+RemodAge,original_or_combined_base,-0.5766,0.5766,moderate
+1stFlrSF,original_or_combined_base,0.5754,0.5754,moderate
+GarageAge,original_or_combined_base,-0.5625,0.5625,moderate
+TotRmsAbvGrd,original_or_combined_base,0.5326,0.5326,moderate
+LotArea,original_or_combined_base,0.4565,0.4565,moderate
+OutdoorSF,original_or_combined_base,0.4252,0.4252,moderate
+BathPerRoom,new_interaction_or_ratio,0.384,0.384,weak
+2ndFlrSF,original_or_combined_base,0.2936,0.2936,weak
+TotalPorchSF,original_or_combined_base,0.2727,0.2727,weak
+FirstFloorRatio,new_interaction_or_ratio,-0.2223,0.2223,weak
+LivingAreaLotRatio,new_interaction_or_ratio,0.1978,0.1978,very weak
+SecondFloorRatio,new_interaction_or_ratio,0.1846,0.1846,very weak
+GarageAreaPerCar,new_interaction_or_ratio,0.1076,0.1076,very weak
+BasementRatio,new_interaction_or_ratio,-0.0592,0.0592,very weak

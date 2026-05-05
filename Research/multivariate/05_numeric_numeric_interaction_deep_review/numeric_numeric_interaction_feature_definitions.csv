@@ -1,0 +1,14 @@
+new_feature,components,formula_type
+OverallQual_x_GrLivArea,OverallQual + GrLivArea,multiplication
+OverallQual_x_TotalSF,OverallQual + TotalSF,multiplication
+OverallQual_x_GarageArea,OverallQual + GarageArea,multiplication
+OverallQual_x_TotalBath,OverallQual + TotalBath,multiplication
+BasementRatio,TotalBsmtSF + TotalSF,ratio
+LivingAreaLotRatio,GrLivArea + LotArea,ratio
+FirstFloorRatio,1stFlrSF + TotalSF,ratio
+SecondFloorRatio,2ndFlrSF + TotalSF,ratio
+GarageAreaPerCar,GarageArea + GarageCars,ratio
+BathPerRoom,TotalBath + TotRmsAbvGrd,ratio
+AreaPerRoom,GrLivArea + TotRmsAbvGrd,ratio
+QualityAgeInteraction,OverallQual + HouseAge,quality_recency
+QualityRemodInteraction,OverallQual + RemodAge,quality_recency

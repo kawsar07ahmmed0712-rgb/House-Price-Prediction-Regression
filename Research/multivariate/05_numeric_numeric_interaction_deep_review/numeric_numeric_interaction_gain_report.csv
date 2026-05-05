@@ -1,0 +1,14 @@
+new_feature,components,formula_type,new_feature_abs_spearman,best_component_abs_spearman,gain_over_best_component,action_hint
+OverallQual_x_TotalSF,OverallQual + TotalSF,multiplication,0.8939,0.8197,0.0743,strong improvement over components
+OverallQual_x_GrLivArea,OverallQual + GrLivArea,multiplication,0.8529,0.8098,0.0431,moderate improvement over components
+OverallQual_x_TotalBath,OverallQual + TotalBath,multiplication,0.8395,0.8098,0.0297,moderate improvement over components
+OverallQual_x_GarageArea,OverallQual + GarageArea,multiplication,0.8004,0.8098,-0.0094,no improvement over components
+QualityAgeInteraction,OverallQual + HouseAge,quality_recency,0.7187,0.8098,-0.0911,no improvement over components
+AreaPerRoom,GrLivArea + TotRmsAbvGrd,ratio,0.5914,0.7313,-0.1399,no improvement over components
+QualityRemodInteraction,OverallQual + RemodAge,quality_recency,0.6481,0.8098,-0.1617,no improvement over components
+BathPerRoom,TotalBath + TotRmsAbvGrd,ratio,0.384,0.7037,-0.3197,no improvement over components
+LivingAreaLotRatio,GrLivArea + LotArea,ratio,0.1978,0.7313,-0.5335,no improvement over components
+GarageAreaPerCar,GarageArea + GarageCars,ratio,0.1076,0.6907,-0.5831,no improvement over components
+FirstFloorRatio,1stFlrSF + TotalSF,ratio,0.2223,0.8197,-0.5973,no improvement over components
+SecondFloorRatio,2ndFlrSF + TotalSF,ratio,0.1846,0.8197,-0.6351,no improvement over components
+BasementRatio,TotalBsmtSF + TotalSF,ratio,0.0592,0.8197,-0.7605,no improvement over components
