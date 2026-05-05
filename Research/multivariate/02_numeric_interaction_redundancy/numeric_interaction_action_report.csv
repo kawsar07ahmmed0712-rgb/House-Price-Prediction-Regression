@@ -1,0 +1,26 @@
+feature_group,feature_name,spearman_corr,abs_spearman_corr,best_feature_in_group,best_group_abs_spearman,is_best_in_group,manual_interaction_action
+area_group,TotalSF,0.8197,0.8197,TotalSF,0.8197,True,create and keep as main total area candidate
+area_group,GrLivArea,0.7313,0.7313,TotalSF,0.8197,False,keep original area feature; review redundancy after model validation
+area_group,TotalBsmtSF,0.6027,0.6027,TotalSF,0.8197,False,keep original area feature; review redundancy after model validation
+area_group,1stFlrSF,0.5754,0.5754,TotalSF,0.8197,False,keep original area feature; review redundancy after model validation
+area_group,2ndFlrSF,0.2936,0.2936,TotalSF,0.8197,False,keep but lower priority area component
+bath_group,TotalBath,0.7037,0.7037,TotalBath,0.7037,True,create and keep as combined bathroom feature
+bath_group,FullBath,0.636,0.636,TotalBath,0.7037,False,keep original bath count for validation
+bath_group,HalfBath,0.343,0.343,TotalBath,0.7037,False,keep original bath count for validation
+bath_group,BsmtFullBath,0.2251,0.2251,TotalBath,0.7037,False,keep original bath count for validation
+bath_group,BsmtHalfBath,-0.0122,0.0122,TotalBath,0.7037,False,keep original bath count for validation
+garage_group,GarageCars,0.6907,0.6907,GarageCars,0.6907,True,keep original garage feature; correlated but useful
+garage_group,GarageScore,0.6683,0.6683,GarageCars,0.6907,False,create and test garage score
+garage_group,GarageArea,0.6494,0.6494,GarageCars,0.6907,False,keep original garage feature; correlated but useful
+porch_outdoor_group,OpenPorchSF,0.4776,0.4776,OpenPorchSF,0.4776,True,keep original sparse outdoor feature with Has indicator
+porch_outdoor_group,OutdoorSF,0.4252,0.4252,OpenPorchSF,0.4776,False,create and test outdoor/porch combined feature
+porch_outdoor_group,WoodDeckSF,0.3538,0.3538,OpenPorchSF,0.4776,False,keep original sparse outdoor feature with Has indicator
+porch_outdoor_group,TotalPorchSF,0.2727,0.2727,OpenPorchSF,0.4776,False,create and test outdoor/porch combined feature
+porch_outdoor_group,EnclosedPorch,-0.2184,0.2184,OpenPorchSF,0.4776,False,keep original sparse outdoor feature with Has indicator
+porch_outdoor_group,ScreenPorch,0.1001,0.1001,OpenPorchSF,0.4776,False,keep original sparse outdoor feature with Has indicator
+porch_outdoor_group,3SsnPorch,0.0654,0.0654,OpenPorchSF,0.4776,False,keep original sparse outdoor feature with Has indicator
+quality_interaction_group,QualityTotalSFInteraction,0.8939,0.8939,QualityTotalSFInteraction,0.8939,True,create and test quality-area interaction
+quality_interaction_group,QualityAreaInteraction,0.8529,0.8529,QualityTotalSFInteraction,0.8939,False,create and test quality-area interaction
+quality_interaction_group,TotalSF,0.8197,0.8197,QualityTotalSFInteraction,0.8939,False,keep core quality/area feature
+quality_interaction_group,OverallQual,0.8098,0.8098,QualityTotalSFInteraction,0.8939,False,keep core quality/area feature
+quality_interaction_group,GrLivArea,0.7313,0.7313,QualityTotalSFInteraction,0.8939,False,keep core quality/area feature

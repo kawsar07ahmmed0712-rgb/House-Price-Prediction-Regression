@@ -1,0 +1,4 @@
+feature_1,feature_2,feature_pair,feature_feature_corr,abs_feature_feature_corr,feature_1_target_spearman,feature_2_target_spearman,stronger_target_feature,weaker_target_feature,target_signal_gap,redundancy_action
+GarageCars,GarageArea,GarageCars ↔ GarageArea,0.8533,0.8533,0.6907,0.6494,GarageCars,GarageArea,0.0413,signals similar / keep both or combine
+TotalBsmtSF,1stFlrSF,TotalBsmtSF ↔ 1stFlrSF,0.8293,0.8293,0.6027,0.5754,TotalBsmtSF,1stFlrSF,0.0273,signals similar / keep both or combine
+GrLivArea,TotRmsAbvGrd,GrLivArea ↔ TotRmsAbvGrd,0.8279,0.8279,0.7313,0.5326,GrLivArea,TotRmsAbvGrd,0.1987,prefer stronger feature / keep weaker for model validation
