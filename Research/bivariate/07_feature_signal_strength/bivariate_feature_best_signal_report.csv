@@ -1,0 +1,83 @@
+feature_name,feature_group,metric_name,raw_metric_value,normalized_signal_score,signal_strength,relationship_direction,median_gap_percentage,action_hint,feature_engineering_hint
+OverallQual,ordinal_categorical,sqrt_eta_squared,0.6842,0.8272,strong,monotonic increasing,212.36,keep / important ordinal signal,priority feature / quality-score candidate
+Neighborhood,nominal_categorical,sqrt_eta_squared,0.5456,0.7386,strong,,139.26,keep / important nominal signal,priority feature / rare-group + one-hot candidate
+GrLivArea,numeric_continuous,abs_spearman_corr,0.7313,0.7313,strong,positive,,numeric relationship with target,priority feature / area-combination candidate
+GarageCars,count_discrete,sqrt_eta_squared,0.4912,0.7009,strong,,119.63,keep / important discrete signal,priority feature / presence-count candidate
+ExterQual,ordinal_categorical,sqrt_eta_squared,0.4774,0.6909,strong,monotonic increasing,173.22,keep / important ordinal signal,priority feature / quality-score candidate
+KitchenQual,ordinal_categorical,sqrt_eta_squared,0.4566,0.6757,strong,monotonic increasing,123.77,keep / important ordinal signal,priority feature / quality-score candidate
+BsmtQual,ordinal_categorical,sqrt_eta_squared,0.4538,0.6736,strong,monotonic increasing,132.64,keep / important ordinal signal,priority feature / quality-score candidate
+PoolQC,ordinal_categorical,sqrt_eta_squared,0.4487,0.6699,strong,non-monotonic / mixed,,keep / important ordinal signal,priority feature / ordinal encoding candidate
+HouseAge,time_continuous,abs_spearman_corr,-0.6501,0.6501,strong,negative,,time/age relationship with target,priority feature / age-time feature candidate
+GarageArea,numeric_continuous,abs_spearman_corr,0.6494,0.6494,strong,positive,,numeric relationship with target,priority feature / area-combination candidate
+FullBath,numeric_continuous,abs_spearman_corr,0.636,0.636,strong,positive,,numeric relationship with target,priority feature / total-bath candidate
+TotalBsmtSF,numeric_continuous,abs_spearman_corr,0.6027,0.6027,strong,positive,,numeric relationship with target,priority feature / area-combination candidate
+GarageAge,time_continuous,abs_spearman_corr,-0.592,0.592,moderate,negative,,time/age relationship with target,priority feature / age-time feature candidate
+RemodAge,time_continuous,abs_spearman_corr,-0.5766,0.5766,moderate,negative,,time/age relationship with target,priority feature / age-time feature candidate
+1stFlrSF,numeric_continuous,abs_spearman_corr,0.5754,0.5754,moderate,positive,,numeric relationship with target,priority feature / area-combination candidate
+TotRmsAbvGrd,count_discrete,sqrt_eta_squared,0.2991,0.5469,strong,,129.9,keep / important discrete signal,priority feature / numeric candidate
+Fireplaces,numeric_continuous,abs_spearman_corr,0.5192,0.5192,moderate,positive,,numeric relationship with target,priority feature / presence-count candidate
+GarageFinish,ordinal_categorical,sqrt_eta_squared,0.2673,0.517,strong,monotonic increasing,70.55,keep / important ordinal signal,priority feature / quality-score candidate
+Foundation,nominal_categorical,sqrt_eta_squared,0.2564,0.5064,strong,,61.87,keep / important nominal signal,priority feature / one-hot candidate
+GarageType,nominal_categorical,sqrt_eta_squared,0.2492,0.4992,strong,,78.22,keep / important nominal signal,priority feature / one-hot candidate
+MSSubClass,nominal_categorical,sqrt_eta_squared,0.2463,0.4963,strong,,77.73,keep / important nominal signal,priority feature / rare-group + one-hot candidate
+OpenPorchSF,numeric_continuous,abs_spearman_corr,0.4776,0.4776,moderate,positive,,numeric relationship with target,priority feature / numeric candidate
+LotArea,numeric_continuous,abs_spearman_corr,0.4565,0.4565,moderate,positive,,numeric relationship with target,priority feature / numeric candidate
+PoolArea,numeric_zero_absence,abs_median_gap_percentage,44.23,0.4423,strong,present higher,44.23,absence/presence target gap,priority feature / Has-indicator candidate
+HeatingQC,ordinal_categorical,sqrt_eta_squared,0.1955,0.4422,moderate,monotonic increasing,43.68,keep / important ordinal signal,priority feature / ordinal encoding candidate
+BsmtFinType1,ordinal_categorical,sqrt_eta_squared,0.1926,0.4389,moderate,non-monotonic / mixed,68.68,keep / important ordinal signal,priority feature / ordinal encoding candidate
+IsNewHouse,time_group,sqrt_eta_squared,0.188,0.4336,moderate,,47.55,time group target separation,priority feature / age-time feature candidate
+MasVnrType,nominal_categorical,sqrt_eta_squared,0.1833,0.4281,moderate,,66.16,keep / important nominal signal,priority feature / one-hot candidate
+MasVnrArea,numeric_continuous,abs_spearman_corr,0.4213,0.4213,moderate,positive,,numeric relationship with target,priority feature / numeric candidate
+GarageQual,categorical_absence,abs_median_gap_percentage,41.41,0.4141,strong,present higher,41.41,absence/presence target gap,priority feature / Has-indicator candidate
+GarageCond,categorical_absence,abs_median_gap_percentage,41.41,0.4141,strong,present higher,41.41,absence/presence target gap,priority feature / Has-indicator candidate
+LotFrontage,numeric_continuous,abs_spearman_corr,0.4091,0.4091,moderate,positive,,numeric relationship with target,priority feature / numeric candidate
+Exterior2nd,nominal_categorical,sqrt_eta_squared,0.1538,0.3922,moderate,,78.37,keep / important nominal signal,priority feature / rare-group + one-hot candidate
+Exterior1st,nominal_categorical,sqrt_eta_squared,0.1528,0.3909,moderate,,78.83,keep / important nominal signal,priority feature / rare-group + one-hot candidate
+BsmtCond,categorical_absence,abs_median_gap_percentage,38.77,0.3877,moderate,present higher,38.77,absence/presence target gap,priority feature / Has-indicator candidate
+BsmtExposure,categorical_absence,abs_median_gap_percentage,37.41,0.3741,moderate,present higher,37.41,absence/presence target gap,priority feature / Has-indicator candidate
+BsmtFinType2,categorical_absence,abs_median_gap_percentage,37.41,0.3741,moderate,present higher,37.41,absence/presence target gap,priority feature / Has-indicator candidate
+SaleType,nominal_categorical,sqrt_eta_squared,0.1373,0.3705,moderate,,66.54,keep / important nominal signal,priority feature / one-hot candidate
+SaleCondition,nominal_categorical,sqrt_eta_squared,0.1355,0.3681,moderate,,70.31,keep / important nominal signal,priority feature / one-hot candidate
+OverallCond,ordinal_categorical,sqrt_eta_squared,0.1254,0.3541,moderate,non-monotonic / mixed,55.95,keep / important ordinal signal,priority feature / ordinal encoding candidate
+WoodDeckSF,numeric_continuous,abs_spearman_corr,0.3538,0.3538,weak,positive,,numeric relationship with target,keep but lower priority / numeric candidate
+FireplaceQu,categorical_absence,abs_median_gap_percentage,34.36,0.3436,moderate,present higher,34.36,absence/presence target gap,priority feature / Has-indicator candidate
+HalfBath,numeric_continuous,abs_spearman_corr,0.343,0.343,weak,positive,,numeric relationship with target,keep but lower priority / total-bath candidate
+MSZoning,nominal_categorical,sqrt_eta_squared,0.1076,0.328,moderate,,80.52,keep / important nominal signal,priority feature / one-hot candidate
+BsmtFinSF1,numeric_continuous,abs_spearman_corr,0.3019,0.3019,weak,positive,,numeric relationship with target,keep but lower priority / numeric candidate
+HouseStyle,nominal_categorical,sqrt_eta_squared,0.0863,0.2938,weak,,48.31,keep but review rare target stability,keep but lower priority / one-hot candidate
+2ndFlrSF,numeric_continuous,abs_spearman_corr,0.2936,0.2936,weak,positive,,numeric relationship with target,keep but lower priority / area-combination candidate
+LotShape,ordinal_categorical,sqrt_eta_squared,0.0764,0.2764,weak,non-monotonic / mixed,-35.32,keep but review,keep but lower priority / ordinal encoding candidate
+CentralAir,nominal_categorical,sqrt_eta_squared,0.0632,0.2514,weak,,42.94,keep / weak standalone signal,keep but lower priority / one-hot candidate
+Electrical,nominal_categorical,sqrt_eta_squared,0.0597,0.2443,weak,,33.74,keep but review rare target stability,keep but lower priority / one-hot candidate
+BedroomAbvGr,count_discrete,sqrt_eta_squared,0.0587,0.2423,weak,,40.03,keep but review rare count levels,keep but lower priority / numeric candidate
+RoofStyle,nominal_categorical,sqrt_eta_squared,0.0577,0.2402,weak,,28.22,keep but review rare target stability,keep but lower priority / one-hot candidate
+HasGarageYrBlt,time_group,sqrt_eta_squared,0.0561,0.2369,weak,,41.41,time group target separation,keep but lower priority / age-time feature candidate
+PavedDrive,ordinal_categorical,sqrt_eta_squared,0.0545,0.2335,weak,monotonic increasing,35.28,keep / ordered signal exists,keep but lower priority / ordinal encoding candidate
+BsmtFullBath,count_discrete,sqrt_eta_squared,0.0535,0.2313,weak,,20.77,keep but review rare count levels,keep but lower priority / total-bath candidate
+Fence,ordinal_categorical,sqrt_eta_squared,0.0509,0.2256,weak,non-monotonic / mixed,-3.37,keep but review,keep but lower priority / ordinal encoding candidate
+EnclosedPorch,numeric_zero_absence,abs_median_gap_percentage,-22.48,0.2248,moderate,present lower,-22.48,absence/presence target gap,priority feature / Has-indicator candidate
+LowQualFinSF,numeric_zero_absence,abs_median_gap_percentage,-19.9,0.199,weak,present lower,-19.9,absence/presence target gap,keep but lower priority / Has-indicator candidate
+BldgType,nominal_categorical,sqrt_eta_squared,0.0345,0.1857,weak,,27.42,keep / weak standalone signal,keep but lower priority / one-hot candidate
+BsmtUnfSF,numeric_continuous,abs_spearman_corr,0.1852,0.1852,very weak,positive,,numeric relationship with target,review later / numeric candidate
+Condition1,nominal_categorical,sqrt_eta_squared,0.0326,0.1806,weak,,49.36,keep but review rare target stability,keep but lower priority / one-hot candidate
+RoofMatl,nominal_categorical,sqrt_eta_squared,0.0314,0.1772,weak,,3.07,keep but review rare target stability,keep but lower priority / one-hot candidate
+KitchenAbvGr,numeric_continuous,abs_spearman_corr,-0.1648,0.1648,very weak,negative,,numeric relationship with target,review later / numeric candidate
+LandContour,nominal_categorical,sqrt_eta_squared,0.0258,0.1606,very weak,,50.83,keep / weak standalone signal,review later / one-hot candidate
+3SsnPorch,numeric_zero_absence,abs_median_gap_percentage,15.64,0.1564,weak,present higher,15.64,absence/presence target gap,keep but lower priority / Has-indicator candidate
+ExterCond,ordinal_categorical,sqrt_eta_squared,0.0236,0.1536,very weak,non-monotonic / mixed,34.05,keep but review,review later / ordinal encoding candidate
+Alley,categorical_absence,abs_median_gap_percentage,-15.34,0.1534,weak,present lower,-15.34,absence/presence target gap,keep but lower priority / Has-indicator candidate
+LotConfig,nominal_categorical,sqrt_eta_squared,0.021,0.1449,very weak,,24.27,keep but review rare target stability,review later / one-hot candidate
+Functional,ordinal_categorical,sqrt_eta_squared,0.0165,0.1285,very weak,non-monotonic / mixed,49.39,keep but review,review later / ordinal encoding candidate
+Heating,nominal_categorical,sqrt_eta_squared,0.0144,0.12,very weak,,18.13,keep but review rare target stability,review later / one-hot candidate
+MiscFeature,categorical_absence,abs_median_gap_percentage,-11.2,0.112,weak,present lower,-11.2,absence/presence target gap,keep but lower priority / Has-indicator candidate
+ScreenPorch,numeric_continuous,abs_spearman_corr,0.1001,0.1001,very weak,positive,,numeric relationship with target,review later / numeric candidate
+Condition2,nominal_categorical,sqrt_eta_squared,0.0099,0.0995,very weak,,,keep but review rare target stability,review later / one-hot candidate
+MiscVal,numeric_zero_absence,abs_median_gap_percentage,-9.82,0.0982,very weak,present lower,-9.82,absence/presence target gap,review later / Has-indicator candidate
+SaleQuarter,time_group,sqrt_eta_squared,0.0053,0.0728,very weak,,8.74,time group target separation,review later / age-time feature candidate
+BsmtFinSF2,numeric_zero_absence,abs_median_gap_percentage,-6.75,0.0675,very weak,present lower,-6.75,absence/presence target gap,review later / Has-indicator candidate
+SaleSeason,time_group,sqrt_eta_squared,0.0035,0.0592,very weak,,9.2,time group target separation,review later / age-time feature candidate
+LandSlope,ordinal_categorical,sqrt_eta_squared,0.0027,0.052,very weak,non-monotonic / mixed,-14.19,keep but review,review later / ordinal encoding candidate
+Street,nominal_categorical,sqrt_eta_squared,0.0017,0.0412,very weak,,,keep but review rare target stability,review later / one-hot candidate
+IsRemodeled,time_group,sqrt_eta_squared,0.0005,0.0224,very weak,,9.2,time group target separation,review later / age-time feature candidate
+BsmtHalfBath,count_discrete,sqrt_eta_squared,0.0003,0.0173,very weak,,2.61,keep but review rare count levels,review later / total-bath candidate
+Utilities,nominal_categorical,sqrt_eta_squared,0.0002,0.0141,very weak,,,keep but review rare target stability,review later / one-hot candidate

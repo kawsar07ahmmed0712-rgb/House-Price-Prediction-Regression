@@ -1,0 +1,44 @@
+feature_name,feature_group,metric_name,raw_metric_value,normalized_signal_score,signal_strength,relationship_direction,median_gap_percentage,action_hint
+OverallQual,ordinal_categorical,sqrt_eta_squared,0.6842,0.8272,strong,monotonic increasing,212.36,keep / important ordinal signal
+Neighborhood,nominal_categorical,sqrt_eta_squared,0.5456,0.7386,strong,,139.26,keep / important nominal signal
+GrLivArea,numeric_continuous,abs_spearman_corr,0.7313,0.7313,strong,positive,,numeric relationship with target
+GarageCars,count_discrete,sqrt_eta_squared,0.4912,0.7009,strong,,119.63,keep / important discrete signal
+ExterQual,ordinal_categorical,sqrt_eta_squared,0.4774,0.6909,strong,monotonic increasing,173.22,keep / important ordinal signal
+KitchenQual,ordinal_categorical,sqrt_eta_squared,0.4566,0.6757,strong,monotonic increasing,123.77,keep / important ordinal signal
+BsmtQual,ordinal_categorical,sqrt_eta_squared,0.4538,0.6736,strong,monotonic increasing,132.64,keep / important ordinal signal
+PoolQC,ordinal_categorical,sqrt_eta_squared,0.4487,0.6699,strong,non-monotonic / mixed,,keep / important ordinal signal
+HouseAge,time_continuous,abs_spearman_corr,-0.6501,0.6501,strong,negative,,time/age relationship with target
+GarageArea,numeric_continuous,abs_spearman_corr,0.6494,0.6494,strong,positive,,numeric relationship with target
+FullBath,numeric_continuous,abs_spearman_corr,0.636,0.636,strong,positive,,numeric relationship with target
+TotalBsmtSF,numeric_continuous,abs_spearman_corr,0.6027,0.6027,strong,positive,,numeric relationship with target
+GarageAge,time_continuous,abs_spearman_corr,-0.592,0.592,moderate,negative,,time/age relationship with target
+RemodAge,time_continuous,abs_spearman_corr,-0.5766,0.5766,moderate,negative,,time/age relationship with target
+1stFlrSF,numeric_continuous,abs_spearman_corr,0.5754,0.5754,moderate,positive,,numeric relationship with target
+TotRmsAbvGrd,count_discrete,sqrt_eta_squared,0.2991,0.5469,strong,,129.9,keep / important discrete signal
+Fireplaces,numeric_continuous,abs_spearman_corr,0.5192,0.5192,moderate,positive,,numeric relationship with target
+GarageFinish,ordinal_categorical,sqrt_eta_squared,0.2673,0.517,strong,monotonic increasing,70.55,keep / important ordinal signal
+Foundation,nominal_categorical,sqrt_eta_squared,0.2564,0.5064,strong,,61.87,keep / important nominal signal
+GarageType,nominal_categorical,sqrt_eta_squared,0.2492,0.4992,strong,,78.22,keep / important nominal signal
+MSSubClass,nominal_categorical,sqrt_eta_squared,0.2463,0.4963,strong,,77.73,keep / important nominal signal
+OpenPorchSF,numeric_continuous,abs_spearman_corr,0.4776,0.4776,moderate,positive,,numeric relationship with target
+LotArea,numeric_continuous,abs_spearman_corr,0.4565,0.4565,moderate,positive,,numeric relationship with target
+PoolArea,numeric_zero_absence,abs_median_gap_percentage,44.23,0.4423,strong,present higher,44.23,absence/presence target gap
+HeatingQC,ordinal_categorical,sqrt_eta_squared,0.1955,0.4422,moderate,monotonic increasing,43.68,keep / important ordinal signal
+BsmtFinType1,ordinal_categorical,sqrt_eta_squared,0.1926,0.4389,moderate,non-monotonic / mixed,68.68,keep / important ordinal signal
+IsNewHouse,time_group,sqrt_eta_squared,0.188,0.4336,moderate,,47.55,time group target separation
+MasVnrType,nominal_categorical,sqrt_eta_squared,0.1833,0.4281,moderate,,66.16,keep / important nominal signal
+MasVnrArea,numeric_continuous,abs_spearman_corr,0.4213,0.4213,moderate,positive,,numeric relationship with target
+GarageQual,categorical_absence,abs_median_gap_percentage,41.41,0.4141,strong,present higher,41.41,absence/presence target gap
+GarageCond,categorical_absence,abs_median_gap_percentage,41.41,0.4141,strong,present higher,41.41,absence/presence target gap
+LotFrontage,numeric_continuous,abs_spearman_corr,0.4091,0.4091,moderate,positive,,numeric relationship with target
+Exterior2nd,nominal_categorical,sqrt_eta_squared,0.1538,0.3922,moderate,,78.37,keep / important nominal signal
+Exterior1st,nominal_categorical,sqrt_eta_squared,0.1528,0.3909,moderate,,78.83,keep / important nominal signal
+BsmtCond,categorical_absence,abs_median_gap_percentage,38.77,0.3877,moderate,present higher,38.77,absence/presence target gap
+BsmtExposure,categorical_absence,abs_median_gap_percentage,37.41,0.3741,moderate,present higher,37.41,absence/presence target gap
+BsmtFinType2,categorical_absence,abs_median_gap_percentage,37.41,0.3741,moderate,present higher,37.41,absence/presence target gap
+SaleType,nominal_categorical,sqrt_eta_squared,0.1373,0.3705,moderate,,66.54,keep / important nominal signal
+SaleCondition,nominal_categorical,sqrt_eta_squared,0.1355,0.3681,moderate,,70.31,keep / important nominal signal
+OverallCond,ordinal_categorical,sqrt_eta_squared,0.1254,0.3541,moderate,non-monotonic / mixed,55.95,keep / important ordinal signal
+FireplaceQu,categorical_absence,abs_median_gap_percentage,34.36,0.3436,moderate,present higher,34.36,absence/presence target gap
+MSZoning,nominal_categorical,sqrt_eta_squared,0.1076,0.328,moderate,,80.52,keep / important nominal signal
+EnclosedPorch,numeric_zero_absence,abs_median_gap_percentage,-22.48,0.2248,moderate,present lower,-22.48,absence/presence target gap

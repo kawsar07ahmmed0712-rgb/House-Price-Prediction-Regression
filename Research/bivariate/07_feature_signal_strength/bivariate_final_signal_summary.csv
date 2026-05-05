@@ -1,0 +1,28 @@
+signal_strength,feature_group,feature_count
+moderate,nominal_categorical,6
+moderate,numeric_continuous,6
+moderate,categorical_absence,4
+moderate,ordinal_categorical,3
+moderate,time_continuous,2
+moderate,numeric_zero_absence,1
+moderate,time_group,1
+strong,ordinal_categorical,6
+strong,nominal_categorical,4
+strong,numeric_continuous,4
+strong,categorical_absence,2
+strong,count_discrete,2
+strong,numeric_zero_absence,1
+strong,time_continuous,1
+very weak,nominal_categorical,6
+very weak,numeric_continuous,3
+very weak,ordinal_categorical,3
+very weak,time_group,3
+very weak,numeric_zero_absence,2
+very weak,count_discrete,1
+weak,nominal_categorical,7
+weak,numeric_continuous,4
+weak,ordinal_categorical,3
+weak,categorical_absence,2
+weak,count_discrete,2
+weak,numeric_zero_absence,2
+weak,time_group,1

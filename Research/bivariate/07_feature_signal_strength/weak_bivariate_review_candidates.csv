@@ -1,0 +1,40 @@
+feature_name,feature_group,metric_name,raw_metric_value,normalized_signal_score,signal_strength,relationship_direction,median_gap_percentage,action_hint
+Utilities,nominal_categorical,sqrt_eta_squared,0.0002,0.0141,very weak,,,keep but review rare target stability
+BsmtHalfBath,count_discrete,sqrt_eta_squared,0.0003,0.0173,very weak,,2.61,keep but review rare count levels
+IsRemodeled,time_group,sqrt_eta_squared,0.0005,0.0224,very weak,,9.2,time group target separation
+Street,nominal_categorical,sqrt_eta_squared,0.0017,0.0412,very weak,,,keep but review rare target stability
+LandSlope,ordinal_categorical,sqrt_eta_squared,0.0027,0.052,very weak,non-monotonic / mixed,-14.19,keep but review
+SaleSeason,time_group,sqrt_eta_squared,0.0035,0.0592,very weak,,9.2,time group target separation
+BsmtFinSF2,numeric_zero_absence,abs_median_gap_percentage,-6.75,0.0675,very weak,present lower,-6.75,absence/presence target gap
+SaleQuarter,time_group,sqrt_eta_squared,0.0053,0.0728,very weak,,8.74,time group target separation
+MiscVal,numeric_zero_absence,abs_median_gap_percentage,-9.82,0.0982,very weak,present lower,-9.82,absence/presence target gap
+Condition2,nominal_categorical,sqrt_eta_squared,0.0099,0.0995,very weak,,,keep but review rare target stability
+ScreenPorch,numeric_continuous,abs_spearman_corr,0.1001,0.1001,very weak,positive,,numeric relationship with target
+MiscFeature,categorical_absence,abs_median_gap_percentage,-11.2,0.112,weak,present lower,-11.2,absence/presence target gap
+Heating,nominal_categorical,sqrt_eta_squared,0.0144,0.12,very weak,,18.13,keep but review rare target stability
+Functional,ordinal_categorical,sqrt_eta_squared,0.0165,0.1285,very weak,non-monotonic / mixed,49.39,keep but review
+LotConfig,nominal_categorical,sqrt_eta_squared,0.021,0.1449,very weak,,24.27,keep but review rare target stability
+Alley,categorical_absence,abs_median_gap_percentage,-15.34,0.1534,weak,present lower,-15.34,absence/presence target gap
+ExterCond,ordinal_categorical,sqrt_eta_squared,0.0236,0.1536,very weak,non-monotonic / mixed,34.05,keep but review
+3SsnPorch,numeric_zero_absence,abs_median_gap_percentage,15.64,0.1564,weak,present higher,15.64,absence/presence target gap
+LandContour,nominal_categorical,sqrt_eta_squared,0.0258,0.1606,very weak,,50.83,keep / weak standalone signal
+KitchenAbvGr,numeric_continuous,abs_spearman_corr,-0.1648,0.1648,very weak,negative,,numeric relationship with target
+RoofMatl,nominal_categorical,sqrt_eta_squared,0.0314,0.1772,weak,,3.07,keep but review rare target stability
+Condition1,nominal_categorical,sqrt_eta_squared,0.0326,0.1806,weak,,49.36,keep but review rare target stability
+BsmtUnfSF,numeric_continuous,abs_spearman_corr,0.1852,0.1852,very weak,positive,,numeric relationship with target
+BldgType,nominal_categorical,sqrt_eta_squared,0.0345,0.1857,weak,,27.42,keep / weak standalone signal
+LowQualFinSF,numeric_zero_absence,abs_median_gap_percentage,-19.9,0.199,weak,present lower,-19.9,absence/presence target gap
+Fence,ordinal_categorical,sqrt_eta_squared,0.0509,0.2256,weak,non-monotonic / mixed,-3.37,keep but review
+BsmtFullBath,count_discrete,sqrt_eta_squared,0.0535,0.2313,weak,,20.77,keep but review rare count levels
+PavedDrive,ordinal_categorical,sqrt_eta_squared,0.0545,0.2335,weak,monotonic increasing,35.28,keep / ordered signal exists
+HasGarageYrBlt,time_group,sqrt_eta_squared,0.0561,0.2369,weak,,41.41,time group target separation
+RoofStyle,nominal_categorical,sqrt_eta_squared,0.0577,0.2402,weak,,28.22,keep but review rare target stability
+BedroomAbvGr,count_discrete,sqrt_eta_squared,0.0587,0.2423,weak,,40.03,keep but review rare count levels
+Electrical,nominal_categorical,sqrt_eta_squared,0.0597,0.2443,weak,,33.74,keep but review rare target stability
+CentralAir,nominal_categorical,sqrt_eta_squared,0.0632,0.2514,weak,,42.94,keep / weak standalone signal
+LotShape,ordinal_categorical,sqrt_eta_squared,0.0764,0.2764,weak,non-monotonic / mixed,-35.32,keep but review
+2ndFlrSF,numeric_continuous,abs_spearman_corr,0.2936,0.2936,weak,positive,,numeric relationship with target
+HouseStyle,nominal_categorical,sqrt_eta_squared,0.0863,0.2938,weak,,48.31,keep but review rare target stability
+BsmtFinSF1,numeric_continuous,abs_spearman_corr,0.3019,0.3019,weak,positive,,numeric relationship with target
+HalfBath,numeric_continuous,abs_spearman_corr,0.343,0.343,weak,positive,,numeric relationship with target
+WoodDeckSF,numeric_continuous,abs_spearman_corr,0.3538,0.3538,weak,positive,,numeric relationship with target
