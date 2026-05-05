@@ -1,0 +1,10 @@
+check,value,status
+train_row_count,1458,pass
+test_row_count,1459,pass
+train_test_same_columns,True,pass
+train_missing_count,0,pass
+test_missing_count,0,pass
+train_infinite_count,0,pass
+test_infinite_count,0,pass
+object_columns_after_encoding_train,0,pass
+object_columns_after_encoding_test,0,pass

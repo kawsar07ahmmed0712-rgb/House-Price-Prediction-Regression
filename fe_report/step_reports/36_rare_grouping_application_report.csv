@@ -1,0 +1,13 @@
+feature,train_unique_before,train_unique_after,test_unique_before,test_unique_after,train_values_grouped_to_rare_count,test_values_grouped_to_rare_count
+Neighborhood,25,24,25,24,11,22
+MSSubClass,15,15,16,15,4,3
+Exterior1st,15,11,13,11,7,6
+Exterior2nd,16,12,15,12,17,19
+HouseStyle,8,8,7,7,8,0
+RoofStyle,6,5,6,5,9,7
+RoofMatl,7,3,4,3,14,5
+Condition1,9,7,9,7,15,20
+Condition2,8,2,5,2,14,15
+SaleType,9,4,9,4,28,39
+SaleCondition,6,6,6,6,4,8
+MiscFeature,5,3,4,3,5,5

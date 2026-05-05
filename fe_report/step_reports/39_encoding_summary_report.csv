@@ -1,0 +1,3 @@
+stage,train_rows,test_rows,train_columns,test_columns,categorical_columns,numeric_columns
+before_encoding,1458,1459,136,136,44,92
+after_encoding,1458,1459,343,343,0,343
