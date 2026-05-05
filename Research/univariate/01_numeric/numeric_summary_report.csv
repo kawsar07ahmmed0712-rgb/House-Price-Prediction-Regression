@@ -1,0 +1,7 @@
+final_manual_action,feature_count
+keep,10
+keep + binary indicator,7
+keep + transform/check,5
+keep indicator; raw feature optional,4
+keep + impute,1
+keep; transform if needed,1

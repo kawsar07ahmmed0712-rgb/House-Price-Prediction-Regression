@@ -1,0 +1,15 @@
+analysis_group,final_manual_action,feature_count
+categorical,keep,36
+categorical,keep + rare grouping,1
+categorical,keep + safe unknown handling,1
+categorical,keep but review,8
+numeric,keep,10
+numeric,keep + binary indicator,7
+numeric,keep + impute,1
+numeric,keep + transform/check,5
+numeric,keep indicator; raw feature optional,4
+numeric,keep; transform if needed,1
+time,keep,9
+time,keep with HasGarageYrBlt,1
+time,prefer engineered feature,2
+time,replace with engineered features,1

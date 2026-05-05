@@ -1,4 +1,0 @@
-,column_name,primary_type,manual_type,missing_count,missing_percentage,missing_status,missing_pattern,missing_indicator_candidate,target_median_when_missing,target_median_when_not_missing,target_gap_pct,test_missing_percentage,train_test_missing_gap,imputation_hint
-2,LotFrontage,continuous,numeric,259,17.74,moderate,MCAR-like / review,yes,172400.0,159500.0,8.09,15.56,-2.18,median imputation
-25,GarageYrBlt,year-like,year_like,81,5.55,moderate,absence-like,yes,100000.0,167500.0,-40.3,5.35,-0.2,fill 0 + add missing indicator
-8,MasVnrArea,continuous,numeric,8,0.55,low,absence-like,yes,203287.0,162700.0,24.95,1.03,0.48,fill 0 + add HasMasVnr

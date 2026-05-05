@@ -1,0 +1,14 @@
+feature_name,feature_group,feature_type,modeling_treatment,final_action,manual_note
+YearBuilt,raw_year,year-like,optional / replace with HouseAge,prefer engineered feature,"Raw build year is useful, but HouseAge is more interpretable for modeling."
+YearRemodAdd,raw_year,year-like,optional / replace with RemodAge,prefer engineered feature,"Raw remodel year is useful, but RemodAge and IsRemodeled are more meaningful."
+GarageYrBlt,raw_year,year-like with missing,use GarageAge + HasGarageYrBlt,replace with engineered features,"Missing values likely mean no garage, so GarageAge should be paired with garage presence indicator."
+YrSold,sale_time,sale year,keep as supporting time feature,keep,Sale year has weak time signal and is needed for age feature creation.
+MoSold,sale_time,sale month,categorical-style time feature,keep,"Month captures seasonal sale timing, but sale count and price trend should be interpreted separately."
+SaleQuarter,engineered_time,quarter,categorical-style time feature,keep,"Q2/Q3 show higher sale activity, so quarter can capture seasonal pattern."
+SaleSeason,engineered_time,season,categorical-style time feature,keep,"Spring/Summer have higher sale activity, while Winter is lower."
+HouseAge,engineered_age,continuous age,numeric feature,keep,Strong engineered feature; older houses generally show lower SalePrice.
+RemodAge,engineered_age,continuous age,numeric feature,keep,Recent remodeling appears related to higher SalePrice.
+GarageAge,engineered_age,continuous age with missing,numeric feature + garage indicator,keep with HasGarageYrBlt,GarageAge is useful but should be paired with HasGarageYrBlt due to missing garage year.
+IsRemodeled,engineered_binary,binary indicator,binary feature,keep,"Useful remodel indicator, but weaker than IsNewHouse."
+HasGarageYrBlt,engineered_binary,binary indicator,binary feature,keep,Useful garage presence signal.
+IsNewHouse,engineered_binary,binary indicator,binary feature,keep,New houses show clearly higher SalePrice.
