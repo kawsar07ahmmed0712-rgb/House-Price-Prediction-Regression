@@ -1,0 +1,13 @@
+feature_group,feature_count,train_missing_total,test_missing_total
+onehot_categorical,222,0,0
+log_transformed_numeric,60,0,0
+target_encoding,48,0,0
+raw_or_other_numeric,31,0,0
+ordinal_score,19,0,0
+binary_indicator,18,0,0
+location_tier_or_flag,9,0,0
+quality_age,5,0,0
+tail_luxury_risk,5,0,0
+location_interaction,3,0,0
+interaction_feature,2,0,0
+basement_refined,2,0,0

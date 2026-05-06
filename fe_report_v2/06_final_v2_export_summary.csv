@@ -1,0 +1,7 @@
+output_name,file_path,rows,columns,purpose,scaling_required
+tree_train_v2,C:\Users\USER\Kawsar_Ahmmed\ALL_Projects_Lab\Machine_Learning\House-Price-Prediction-Regression\fe_result_v2\06_X_train_tree_v2_final.csv,1458,424,tree/boosting model training,False
+tree_test_v2,C:\Users\USER\Kawsar_Ahmmed\ALL_Projects_Lab\Machine_Learning\House-Price-Prediction-Regression\fe_result_v2\06_X_test_tree_v2_final.csv,1459,424,tree/boosting model prediction,False
+linear_train_v2,C:\Users\USER\Kawsar_Ahmmed\ALL_Projects_Lab\Machine_Learning\House-Price-Prediction-Regression\fe_result_v2\06_X_train_linear_v2_final.csv,1458,424,linear/kernel model training,True
+linear_test_v2,C:\Users\USER\Kawsar_Ahmmed\ALL_Projects_Lab\Machine_Learning\House-Price-Prediction-Regression\fe_result_v2\06_X_test_linear_v2_final.csv,1459,424,linear/kernel model prediction,True
+y_train_log_v2,C:\Users\USER\Kawsar_Ahmmed\ALL_Projects_Lab\Machine_Learning\House-Price-Prediction-Regression\fe_result_v2\06_y_train_log_v2.csv,1458,2,main log target,False
+test_ids_v2,C:\Users\USER\Kawsar_Ahmmed\ALL_Projects_Lab\Machine_Learning\House-Price-Prediction-Regression\fe_result_v2\06_test_ids_v2.csv,1459,1,submission IDs,False

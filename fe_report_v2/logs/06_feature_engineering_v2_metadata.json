@@ -1,0 +1,14 @@
+{
+    "target_column": "SalePrice",
+    "log_target_column": "LogSalePrice",
+    "id_column": "Id",
+    "target_transform": "log1p",
+    "tree_v2_shape": "(1458, 424)",
+    "test_tree_v2_shape": "(1459, 424)",
+    "linear_v2_shape": "(1458, 424)",
+    "test_linear_v2_shape": "(1459, 424)",
+    "linear_v2_log_features_applied": "['LotFrontage', 'LotArea', 'MasVnrArea', 'BsmtFinSF1', 'BsmtFinSF2', 'BsmtUnfSF', 'TotalBsmtSF', '1stFlrSF', '2ndFlrSF', 'LowQualFinSF', 'GrLivArea', 'GarageArea', 'WoodDeckSF', 'OpenPorchSF', 'EnclosedPorch', '3SsnPorch', 'ScreenPorch', 'PoolArea', 'MiscVal', 'TotalSF', 'LivingPlusBasementSF', 'TotalPorchSF', 'OutdoorSF', 'TotalBath', 'OverallQual_x_TotalSF', 'OverallQual_x_GrLivArea', 'OverallQual_x_TotalBath', 'KitchenQual_Ord_x_GrLivArea', 'ExterQual_Ord_x_GrLivArea', 'BsmtQual_Ord_x_TotalBsmtSF', 'GarageFinish_Ord_x_GarageArea', 'GarageQual_Ord_x_GarageArea', 'Neighborhood_TE_x_GrLivArea', 'Neighborhood_TE_x_TotalSF', 'Neighborhood_TE_x_LivingPlusBasementSF', 'Neighborhood_TE_x_TotalBsmtSF', 'Neighborhood_TE_x_1stFlrSF', 'Neighborhood_TE_x_2ndFlrSF', 'Neighborhood_TE_x_GarageArea', 'Neighborhood_TE_x_TotalBath', 'Neighborhood_TE_x_TotalPorchSF', 'Neighborhood_TE_x_OutdoorSF', 'Neighborhood_TE_x_LotArea', 'Neighborhood_TE_x_LotFrontage', 'GarageScore', 'GarageAreaPerCar', 'GarageQualityAreaScore', 'GarageFinishAreaScore', 'OverallQual_x_GarageScore', 'Neighborhood_TE_x_GarageScore', 'BasementScore', 'BasementQualityAreaScore', 'BasementExposureAreaScore', 'FinishedBasementSF', 'OverallQual_x_BasementQualityAreaScore', 'Neighborhood_TE_x_BasementQualityAreaScore', 'RoomSizeAvg', 'OverallQual_x_RoomSizeAvg', 'LuxuryAreaScore', 'LuxuryNeighborhoodScore']",
+    "target_encoding_artifacts": "C:\\Users\\USER\\Kawsar_Ahmmed\\ALL_Projects_Lab\\Machine_Learning\\House-Price-Prediction-Regression\\fe_result_v2\\02_target_encoding_artifacts.joblib",
+    "encoding_artifacts": "C:\\Users\\USER\\Kawsar_Ahmmed\\ALL_Projects_Lab\\Machine_Learning\\House-Price-Prediction-Regression\\fe_result_v2\\05_encoding_artifacts_v2.joblib",
+    "model_training_done_here": "False"
+}

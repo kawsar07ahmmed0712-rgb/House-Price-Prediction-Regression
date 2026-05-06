@@ -1,0 +1,17 @@
+encoded_feature,base_feature,global_mean,smoothing,category_count
+Neighborhood_TE,Neighborhood,12.024015155682548,20,25
+MSSubClass_TE,MSSubClass,12.024015155682548,20,15
+Exterior1st_TE,Exterior1st,12.024015155682548,20,15
+Exterior2nd_TE,Exterior2nd,12.024015155682548,20,16
+Foundation_TE,Foundation,12.024015155682548,20,6
+HouseStyle_TE,HouseStyle,12.024015155682548,20,8
+SaleCondition_TE,SaleCondition,12.024015155682548,20,6
+GarageType_TE,GarageType,12.024015155682548,20,7
+Neighborhood_OverallQual_TE,Neighborhood_OverallQual,12.024015155682548,20,113
+Neighborhood_MSSubClass_TE,Neighborhood_MSSubClass,12.024015155682548,20,144
+Neighborhood_HouseStyle_TE,Neighborhood_HouseStyle,12.024015155682548,20,96
+MSSubClass_OverallQual_TE,MSSubClass_OverallQual,12.024015155682548,20,78
+Exterior1st_OverallQual_TE,Exterior1st_OverallQual,12.024015155682548,20,74
+Exterior2nd_OverallQual_TE,Exterior2nd_OverallQual,12.024015155682548,20,84
+Foundation_OverallQual_TE,Foundation_OverallQual,12.024015155682548,20,39
+GarageType_OverallQual_TE,GarageType_OverallQual,12.024015155682548,20,43

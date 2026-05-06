@@ -1,0 +1,6 @@
+feature_family,feature_count,features
+quality_age,11,"OverallQual_x_HouseAge, OverallQual_x_RemodAge, Neighborhood_TE_x_HouseAge, Neighborhood_TE_x_RemodAge, QualityAgeIndex, QualityRemodIndex, AgePenaltyByQuality, IsVeryOldHouse, IsOldButRemodeled, OldLowQualityHouse, NewHighQualityHouse"
+garage_refined,8,"GarageScore, GarageAreaPerCar, GarageQualityAreaScore, GarageFinishAreaScore, OverallQual_x_GarageScore, Neighborhood_TE_x_GarageScore, HasLargeGarage, LargeHighQualityGarage"
+basement_refined,8,"BasementScore, BasementQualityAreaScore, BasementExposureAreaScore, FinishedBasementSF, FinishedBasementRatio, UnfinishedBasementRatio, OverallQual_x_BasementQualityAreaScore, Neighborhood_TE_x_BasementQualityAreaScore"
+room_ratio,5,"BathPerRoom, BathPerBedroom, BedroomPerRoom, RoomSizeAvg, OverallQual_x_RoomSizeAvg"
+tail_luxury_risk,7,"LuxuryScore, LuxuryAreaScore, LuxuryNeighborhoodScore, LowQualityRiskScore, PremiumLargeLuxuryHouse, LowTierSmallLowQualityHouse, LargeButLowQualityRisk"

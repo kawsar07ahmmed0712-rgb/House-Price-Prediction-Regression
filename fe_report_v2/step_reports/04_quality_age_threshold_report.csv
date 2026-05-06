@@ -1,0 +1,6 @@
+threshold,value
+house_age_high_75pct,54.0
+house_age_very_high_90pct,84.0
+remod_age_high_75pct,41.0
+overall_qual_high_75pct,7.0
+overall_qual_low_25pct,5.0
