@@ -1,0 +1,31 @@
+{
+    "runtime_minutes": 3.68,
+    "candidate_model_count": 24,
+    "selected_blend_models": [
+        "Ridge_RobustScaler_baseline",
+        "ElasticNet_robust_tuned",
+        "ElasticNet_RobustScaler_baseline",
+        "SVR_RBF_RobustScaler_master",
+        "Ridge_RobustScaler_alpha10_master",
+        "BayesianRidge_RobustScaler_master",
+        "Ridge_RobustScaler_alpha30_master",
+        "CatBoost_master_v2"
+    ],
+    "best_blend_weights": [
+        0.02152,
+        0.24965,
+        0.04861,
+        0.26967,
+        0.03077,
+        0.01279,
+        0.01929,
+        0.3477
+    ],
+    "best_weighted_blend_oof_log_rmse": 0.1071568016608053,
+    "best_meta_model": "Ridge_meta_alpha_0.3",
+    "best_meta_oof_log_rmse": 0.10637208645950481,
+    "weighted_blend_submission": "C:\\Users\\USER\\Kawsar_Ahmmed\\ALL_Projects_Lab\\Machine_Learning\\House-Price-Prediction-Regression\\model_result\\submissions\\submission_master_weighted_blend.csv",
+    "stack_submission": "C:\\Users\\USER\\Kawsar_Ahmmed\\ALL_Projects_Lab\\Machine_Learning\\House-Price-Prediction-Regression\\model_result\\submissions\\submission_master_stack.csv",
+    "public_safe_submission": "C:\\Users\\USER\\Kawsar_Ahmmed\\ALL_Projects_Lab\\Machine_Learning\\House-Price-Prediction-Regression\\model_result\\submissions\\submission_public_safe_ridge_anchor_blend.csv",
+    "public_safe_oof_log_rmse": 0.10911410084586823
+}

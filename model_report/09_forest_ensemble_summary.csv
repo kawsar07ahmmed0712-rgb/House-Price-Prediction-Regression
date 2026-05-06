@@ -1,0 +1,10 @@
+item,value
+runtime_minutes,4.62
+forest_model_count,8
+valid_forest_blend_models,"['ExtraTrees_regularized_085_leaf3_seed777', 'RandomForest_deep_045_seed2024', 'RandomForest_regularized_055_leaf2_seed777', 'RandomForest_depth20_060_leaf2_seed123', 'RandomForest_deep_sqrt_seed42', 'RandomForest_regularized_070_leaf3_seed999']"
+best_forest_blend_oof_log_rmse,0.12700504109444616
+best_ridge_forest_oof_log_rmse,0.1108876938263649
+best_ridge_weight,0.8000000000000003
+best_forest_weight,0.19999999999999973
+forest_only_submission,C:\Users\USER\Kawsar_Ahmmed\ALL_Projects_Lab\Machine_Learning\House-Price-Prediction-Regression\model_result\submissions\submission_forest_only_blend.csv
+ridge_forest_submission,C:\Users\USER\Kawsar_Ahmmed\ALL_Projects_Lab\Machine_Learning\House-Price-Prediction-Regression\model_result\submissions\submission_ridge_forest_blend.csv

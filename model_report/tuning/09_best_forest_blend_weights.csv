@@ -1,0 +1,7 @@
+model_name,weight
+ExtraTrees_regularized_085_leaf3_seed777,0.61406
+RandomForest_deep_045_seed2024,0.03233
+RandomForest_regularized_055_leaf2_seed777,0.12931
+RandomForest_depth20_060_leaf2_seed123,0.05386
+RandomForest_deep_sqrt_seed42,0.16296
+RandomForest_regularized_070_leaf3_seed999,0.00748

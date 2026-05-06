@@ -1,0 +1,12 @@
+{
+    "project_root": "C:\\Users\\USER\\Kawsar_Ahmmed\\ALL_Projects_Lab\\Machine_Learning\\House-Price-Prediction-Regression",
+    "fe_result_dir": "C:\\Users\\USER\\Kawsar_Ahmmed\\ALL_Projects_Lab\\Machine_Learning\\House-Price-Prediction-Regression\\fe_result",
+    "model_report_dir": "C:\\Users\\USER\\Kawsar_Ahmmed\\ALL_Projects_Lab\\Machine_Learning\\House-Price-Prediction-Regression\\model_report",
+    "model_result_dir": "C:\\Users\\USER\\Kawsar_Ahmmed\\ALL_Projects_Lab\\Machine_Learning\\House-Price-Prediction-Regression\\model_result",
+    "random_state": 42,
+    "primary_metric": "CV RMSE on log1p(SalePrice)",
+    "model_training_notebook_scope": "research, CV, visualization, model comparison",
+    "xgboost_available": true,
+    "lightgbm_available": true,
+    "catboost_available": true
+}

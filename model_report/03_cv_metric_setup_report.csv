@@ -1,0 +1,7 @@
+item,value
+cv_strategy,"KFold(n_splits=5, shuffle=True, random_state=42)"
+primary_metric,RMSE on log1p(SalePrice)
+secondary_metrics,"raw MAE, raw RMSE, raw R2"
+oof_predictions,enabled
+test_prediction_strategy,average fold predictions
+model_training_scope,"research-friendly, visualization-heavy, 1-2 hour budget"

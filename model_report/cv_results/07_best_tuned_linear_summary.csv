@@ -1,0 +1,2 @@
+model_name,dataset_type,cv_mean_log_rmse,cv_std_log_rmse,oof_log_rmse,mean_train_log_rmse,mean_train_valid_gap,raw_mae_oof,raw_rmse_oof,raw_r2_oof,total_time_seconds,fold_count
+ElasticNet_robust_tuned,linear,0.10964336076655293,0.008662503843655382,0.10992093970505233,0.0955558586123986,0.014087502154154313,13528.812150029897,21296.38685126765,0.9281826137466128,0.7159907817840576,5

@@ -1,0 +1,8 @@
+check,value,expected,status
+train_rows_match_target,1458,1458,pass
+test_rows_match_test_ids,1459,1459,pass
+train_test_same_columns,True,True,pass
+target_not_in_train_features,False,False,pass
+target_not_in_test_features,False,False,pass
+id_column_available_train,True,True,pass
+id_column_available_test,True,True,pass

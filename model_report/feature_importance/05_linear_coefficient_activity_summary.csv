@@ -1,0 +1,3 @@
+model_name,total_features,active_features,always_active_features,mean_abs_coefficient,max_abs_coefficient,inactive_features
+ElasticNet_RobustScaler_baseline,343,259,94,0.011284997341474558,0.2733528770684446,84
+Ridge_RobustScaler_baseline,343,343,336,0.010989721371661675,0.07600941177267242,0

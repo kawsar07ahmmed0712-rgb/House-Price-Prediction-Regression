@@ -1,0 +1,2 @@
+model_name,dataset_type,cv_mean_log_rmse,cv_std_log_rmse,oof_log_rmse,mean_train_log_rmse,mean_train_valid_gap,raw_mae_oof,raw_rmse_oof,raw_r2_oof,total_time_seconds,fold_count,rank,experiment_group
+CatBoost_research_v1,tree,0.11372766857755578,0.00827071528924926,0.11397151760938469,0.07517361882054359,0.038554049757012196,13951.120951895611,22206.43501507234,0.9219135953042448,8.732372999191284,5,1,tree_research

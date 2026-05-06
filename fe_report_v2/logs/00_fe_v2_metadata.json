@@ -1,0 +1,17 @@
+{
+    "notebook": "Feature_Engineering_v2.ipynb",
+    "base_source": "FE v1 advanced engineered dataset",
+    "main_goal": "Improve public score using location-aware and target-encoded features",
+    "target_transform": "log1p(SalePrice)",
+    "model_training_done_here": false,
+    "main_new_feature_groups": [
+        "OOF target encoding",
+        "Neighborhood price tier",
+        "location-quality interactions",
+        "location-size interactions",
+        "quality-age interactions",
+        "luxury/risk tail features",
+        "linear-specific cleanup"
+    ],
+    "leakage_rule": "All train target encodings must be out-of-fold only."
+}

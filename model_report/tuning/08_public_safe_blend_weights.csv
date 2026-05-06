@@ -1,0 +1,6 @@
+model_name,weight
+Ridge_RobustScaler_baseline,0.55
+ElasticNet_RobustScaler_baseline,0.2
+GradientBoosting_baseline,0.1
+XGBoost_GPU_baseline,0.1
+CatBoost_research_v1,0.05

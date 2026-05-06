@@ -1,0 +1,10 @@
+model_name,type,oof_log_rmse
+Master_Weighted_Blend,weighted_blend,0.1071568016608053
+ElasticNet_robust_tuned,single_model,0.10992093970505233
+ElasticNet_RobustScaler_baseline,single_model,0.11104220131071016
+SVR_RBF_RobustScaler_master,single_model,0.11108787731779618
+Ridge_RobustScaler_alpha10_master,single_model,0.1121412395964152
+BayesianRidge_RobustScaler_master,single_model,0.11217382505512231
+Ridge_RobustScaler_baseline,single_model,0.1123167851967404
+Ridge_RobustScaler_alpha30_master,single_model,0.11270306891832767
+CatBoost_master_v2,single_model,0.11385775526850801
